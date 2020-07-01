@@ -1,0 +1,22 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: $thm-font-primary;
+    background-color: $thm-white;
+    color: $thm-charcoal;
+}
+
+// main {
+//     min-height: calc(100vh - 120px);
+//     position: relative;
+// }
+
+h1, h2, h3, h4 {
+    font-family: $thm-font-header;
+    color: $thm-charcoal;
+  }

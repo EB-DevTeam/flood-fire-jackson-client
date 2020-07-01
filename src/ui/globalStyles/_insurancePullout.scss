@@ -1,0 +1,28 @@
+.insurancePullout__div-cont {
+    background-color: $thm-light-blue;
+    color: $thm-white;
+    padding: $thm-spacing-desktop-2;
+    width: 50%;
+    padding-left: 20vw;
+    margin-left: -10vw;
+    margin-right: $thm-spacing-desktop-3;
+    float: left;
+   //margin-top: 1.75vw;
+   padding-top: $thm-spacing-desktop-3;
+   padding-bottom: $thm-spacing-desktop-3;
+   padding-right: $thm-spacing-desktop-3;
+    margin-bottom: 7vw;
+}
+.insurancePullout__h3 {
+    margin-top: 0;
+    color: $thm-white;
+}
+
+
+
+@media only screen and(max-width: 870px) {
+    .insurancePullout__div-cont {
+        width: 100%;
+        margin-bottom: $thm-spacing-desktop-3;
+    }
+}

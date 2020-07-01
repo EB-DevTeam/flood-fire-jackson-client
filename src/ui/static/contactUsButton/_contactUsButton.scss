@@ -1,0 +1,86 @@
+.contact-us-button {
+    @include flex(column, nowrap, center, flex-end);
+    z-index: $thm-z-alert;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    @include bp($thm-bp-med) {
+        right: 1rem;
+    }
+}
+
+.contact-us-button__icon {
+    font-size: $thm-font-lrg;
+    height: $thm-font-lrg;
+    width: $thm-font-lrg;
+
+}
+.file{
+    @include flex(column, nowrap, center, center);
+}
+
+.call-button {
+    // background-color: #d32121;
+    background-color: $thm-burg;
+    border-radius: 50px;
+    &__icon {
+        color: $thm-off-white;
+    }
+}
+
+.box-shadow {
+    box-shadow: $thm-bs-2;
+}
+
+.contact-us-button-form {
+    display: none;
+    color: $thm-burg;
+    background-color: $thm-off-white;
+    padding: .75em;
+    border-radius: 50px;
+
+    @include bp($thm-bp-sml){
+        display: flex;}
+}
+
+.contact-us-button-phone{
+    display: block;
+    color: $thm-burg;
+    background-color: $thm-off-white;
+    padding: .75em;
+    border-radius: 50px;
+    @include bp($thm-bp-sml){
+        display:none
+    }
+}
+
+
+// .contact-us-button__open {
+//     animation: swing-open 200ms ease;
+// }
+
+// .contact-us-button__closed {
+//     animation: swing-closed 200ms ease;
+//     visibility: hidden;
+// }
+
+@keyframes swing-open {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes swing-closed {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+}

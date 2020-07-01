@@ -1,0 +1,135 @@
+/**
+* Global variabls contain information
+* related styling of the application
+*/
+
+// 1. Colors
+
+$thm-white: #fff;
+$thm-off-white: #F3F3F3;
+$thm-grey: rgba(46,46,46,.6);
+$thm-charcoal: #2E2E2E;
+$thm-light-blue: rgba(28,70,136,.6);
+$thm-blue: #1C4688;
+$thm-navy: #022B53;
+$thm-light-red: rgba(116,17,29,.6);
+$thm-red: #B90920;
+$thm-burg: #74111D;
+
+
+
+// 2. Fonts
+$thm-font-primary: 'Open Sans', sans-serif; 
+$thm-font-header: 'Open Sans', sans-serif;
+
+// Font Size
+$thm-font-tiny: 12px;
+$thm-font-sml: 14px;
+$thm-font-med: 16px;
+$thm-font-medlrg: 18px;
+$thm-font-lrg: 24px;
+$thm-font-xlrg: 28px;
+$thm-font-ult: 32px;
+$thm-font-xult: 40px;
+$thm-font-xxult: 70px;
+
+// Default Font-Heading
+h1{font-size: $thm-font-xxult;}
+h2{font-size: $thm-font-xlrg;}
+h3{font-size: $thm-font-lrg;}
+h4{font-size: $thm-font-medlrg}
+
+
+// Font Weight 
+$thm-fw-1: 100;
+$thm-fw-2: 300;
+$thm-fw-3: 400;
+$thm-fw-4: 700;
+
+
+
+
+// 3. Spacing (padding/margins)
+
+//Mobile
+$thm-spacing-mobile-1: .25em;
+$thm-spacing-mobile-2: 1em;
+$thm-spacing-mobile-3: 2em;
+
+$thm-spacingNeg-mobile-1: -.25em;
+$thm-spacingNeg-mobile-2: -1em;
+$thm-spacingNeg-mobile-3: -2em;
+
+//Desktop
+$thm-spacing-desktop-1: 1em; //27px
+$thm-spacing-desktop-2: 2em; //54px
+$thm-spacing-desktop-3: 4em; //108px
+$thm-spacing-desktop-4: 7em; //108px
+
+$thm-spacingNeg-desktop-1: -1em; //27px
+$thm-spacingNeg-desktop-2: -2em; //54px
+$thm-spacingNeg-desktop-3: -4em; //108px
+$thm-spacingNeg-desktop-4: -7em; //108px
+
+//Section Spacing
+section{
+    width: 100%;
+    margin-bottom: $thm-spacing-desktop-4;
+}
+
+section>div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media only screen and(max-width: 600px) {
+    section{
+        margin-bottom: $thm-spacing-desktop-2;
+    }
+}
+.buttonPadding{
+    padding-bottom: $thm-spacing-desktop-1;
+}
+
+
+// 4. Z-index
+$thm-z-floor: 0;
+$thm-z-glide: 5;
+$thm-z-float: 10;
+$thm-z-hover: 20;
+$thm-z-alert: 80;
+$thm-z-ceiling: 100;
+
+// 5. Box Shadow
+$thm-bs-1: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+$thm-bs-2: 1px 1px 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+$thm-bs-3: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+// 6. Border Radius
+$thm-br-1: 5px;
+$thm-br-2: 10px;
+$thm-br-3: 15px;
+
+// 7. Breakpoints (subject to change)
+
+$thm-bp-tiny: 350px;
+$thm-bp-sml: 725px;
+$thm-bp-smlmed: 725px;
+$thm-bp-med: 800px;
+$thm-bp-medlrg: 930px;
+$thm-bp-lrg: 1024px;
+$thm-bp-lrgxlg: 1200px;
+$thm-bp-xlrg: 1280px;
+$thm-bp-ult: 1440px;
+
+// breakpoint map
+$thm-break-points: (
+	"tiny": $thm-bp-tiny,
+    "sml": $thm-bp-sml, 
+    "smlmed": $thm-bp-smlmed,
+    "med": $thm-bp-med, 
+    "medlrg": $thm-bp-medlrg,
+	"lrg": $thm-bp-lrg, 
+	"xlrg": $thm-bp-xlrg,
+	"ult": $thm-bp-ult,
+);

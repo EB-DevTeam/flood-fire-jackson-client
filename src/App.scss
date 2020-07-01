@@ -1,0 +1,46 @@
+// Global Style Settings
+@import "./ui/globalStyles/globalVariables";
+@import "./ui/globalStyles/default";
+@import "./ui/globalStyles/banner";
+@import "./ui/globalStyles/buttons";
+@import "./ui/globalStyles/callout";
+@import "./ui/globalStyles/functions";
+@import "./ui/globalStyles/effects";
+@import "./ui/globalStyles/insurancePullout";
+
+//Static
+@import './ui/static/nav/nav';
+@import './ui/static/footer/footer';
+@import "./ui/static/contactUsButton/contactUsButton";
+
+
+//Home
+@import './ui/views/home/home';
+
+
+//Water
+@import './ui/views/water/water';
+
+
+//Fire
+@import './ui/views/fire/fire';
+
+
+//Mold
+@import './ui/views/mold/mold';
+
+//Natural Disasters 
+@import './ui/views/naturalDisaster/naturalDisaster';
+
+//Insurance
+@import './ui/views/insurance/insurance';
+
+
+//Contact 
+@import './ui/views/contact/contact';
+
+//Sitemap
+@import './ui/views/sitemap/SiteMap';
+
+//Login
+@import './ui/views/login/login';
