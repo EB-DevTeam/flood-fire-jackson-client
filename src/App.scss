@@ -63,6 +63,9 @@
 
 //Natural Disasters 
 @import './ui/views/naturalDisaster/naturalDisaster';
+@import './ui/views/naturalDisaster/childComp/naturalBanner';
+@import './ui/views/naturalDisaster/childComp/naturalCallCallout';
+
 
 //Insurance
 @import './ui/views/insurance/insurance';

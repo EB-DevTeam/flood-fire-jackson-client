@@ -1,6 +1,11 @@
 import React, { useEffect } from "react";
 
 import Helmet from 'react-helmet';
+import NaturalBanner from "./childComp/NaturalBanner";
+import NaturalCallCallout from "./childComp/NaturalCallCallout";
+import HaveYour from "./childComp/HaveYour";
+
+
 
 function NaturalDisaster() {
   useEffect(() => {
@@ -11,6 +16,10 @@ function NaturalDisaster() {
     <div>
     <Helmet>
       </Helmet>
+
+      <NaturalBanner/>
+      <HaveYour/>
+      <NaturalCallCallout/>
    
  </div>
   );
