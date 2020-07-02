@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import FireBanner from "./childComp/FireBanner";
 import FireRepair from "./childComp/FireRepair";
 import FireCallout from "./childComp/FireCallOut";
+import FireCraft from "./childComp/FireCraft";
 
 
 function Fire() {
@@ -17,6 +18,7 @@ function Fire() {
       <FireBanner/>
       <FireRepair/>
       <FireCallout/>
+      <FireCraft/>
         
     </div>
   );
