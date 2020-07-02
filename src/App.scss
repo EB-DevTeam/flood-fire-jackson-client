@@ -12,8 +12,7 @@
 @import "./ui/globalStyles/imageLeftFlush";
 @import "./ui/globalStyles/backgroundImage";
 @import "./ui/globalStyles/imageRightFlush";
-
-
+@import "./ui/globalStyles/twoImg";
 
 //Static
 @import './ui/static/nav/nav';
@@ -52,6 +51,7 @@
 @import './ui/views/fire/childComp/fireRepair';
 @import './ui/views/fire/childComp/fireCallout';
 @import './ui/views/fire/childComp/fireCrafts';
+@import './ui/views/fire/childComp/fireTwoImg';
 
 //Mold
 @import './ui/views/mold/mold';

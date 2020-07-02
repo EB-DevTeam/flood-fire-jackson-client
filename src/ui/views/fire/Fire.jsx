@@ -4,6 +4,7 @@ import FireBanner from "./childComp/FireBanner";
 import FireRepair from "./childComp/FireRepair";
 import FireCallout from "./childComp/FireCallOut";
 import FireCraft from "./childComp/FireCraft";
+import FireTwoImg from "./childComp/FireTwoImg";
 
 
 function Fire() {
@@ -19,7 +20,7 @@ function Fire() {
       <FireRepair/>
       <FireCallout/>
       <FireCraft/>
-        
+      <FireTwoImg/>
     </div>
   );
 }
