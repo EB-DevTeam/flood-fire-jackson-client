@@ -1,0 +1,111 @@
+.highlights__section {
+    background-color: $thm-grey;
+    padding: $thm-spacing-desktop-2 0;
+    // margin-bottom: $thm-spacing-desktop-4;
+}
+
+.highlights__div-Cont {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.highlights__div {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    // justify-items:center;
+}
+
+.highlights__div>.highlights__icon {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: 0;
+}
+
+.highlights__div>h3 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: 0;
+    margin-left: 30px;
+    font-size: large;
+}
+
+.highlights__div>p {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: 0;
+    margin-left: 30px;
+    font-size: small;
+
+}
+
+.highlights__icon {
+    font-size: 45px;
+}
+
+.highlights__iconStar {
+    font-size: 20px;
+    width: 30%;
+}
+
+.highlights__div-stars {
+    @include flex(row, wrap, center, center);
+    margin-right: -20px !important;
+}
+
+// .highlights__section-container img{
+//     width: 50px;
+// }
+
+// .highlights__section-container {
+//     color: $thm-off-white;
+//     text-align: center;
+// }
+
+// .highlights__section-container div h3 {
+//     color: $thm-off-white;
+// }
+
+// @media only screen and(max-width: 600px) {
+
+//     .highlights__section-container {
+//         grid-template-columns: auto;
+//         grid-template-rows: auto auto auto;
+//         margin-bottom: $thm-spacing-desktop-3;
+//         margin-top:-20vw;
+//     }
+
+//     .highlights__div-one h3 {
+//         margin:0;
+//     }
+//     .highlights__div-one img {
+//         margin-top:$thm-spacing-mobile-3;
+//     }
+//     .highlights__div-two h3 {
+//         margin:0;
+//     }
+
+//     .highlights__div-three h3 {
+//         margin:0;
+//     }
+//     .highlights__div-one h3 {
+//         margin: $thm-spacing-mobile-2;    
+//     }
+
+//     .highlights__div-two {
+//         margin: $thm-spacing-mobile-2;
+//     }
+
+//     .highlights__div-three {
+//         margin: $thm-spacing-mobile-2;
+//     }
+// }

@@ -7,7 +7,7 @@
     height: 390px;
     display: flex;
     align-items: center;
-    margin-bottom: $thm-spacing-desktop-2;
+    // margin-bottom: $thm-spacing-desktop-2;
 
 }
 
@@ -15,14 +15,15 @@
     margin-bottom: -.25em;
     color: $thm-off-white;
     margin-top:$thm-spacingNeg-desktop-1;
-    text-shadow: #000 0 0 8px;
+    text-shadow: #646060 0 0 8px;
+    font-weight: $thm-fw-3;
 }
 
 .banner__div-container h2 {
     font-weight: $thm-fw-3;
     color: $thm-off-white;
     margin-top: .5em;
-    text-shadow: #000 0 0 8px;
+    text-shadow: #646060 0 0 8px;
 }
 // .banner__section-container a{
 //     padding: 10px;

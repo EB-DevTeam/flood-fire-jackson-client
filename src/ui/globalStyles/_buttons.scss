@@ -1,136 +1,46 @@
 //red buttons
-.burg-to-red__button {
-    background-color: $thm-burg;
-    padding: 10px;
+.red-to-grey__button{
+    background-color: $thm-light-red;
+    padding: 8px 16px;
     text-decoration: none;
-    border-radius: 5px;
-    font-size: $thm-font-medlrg;
+    border-radius: 10px;
+    font-size: $thm-font-med;
     border: none;
     color: $thm-white;
-}
-.burg-to-red__button:hover {
-    background-color: $thm-red;
+    font-weight: bold;
+
+    &:hover{
+        background-color: $thm-light-grey;
+        color: $thm-charcoal;
+    }
+   
 }
 
-.red-to-burg__button{
-    background-color: $thm-red;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: $thm-font-medlrg;
-    border: none;
-    color: $thm-white;
-}
-.red-to-burg__button:hover {
-    background-color: $thm-burg;
-}
 
 //blue buttons
-.navy-to-blue__button {
-    background-color: $thm-navy;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: $thm-font-medlrg;
-    border: none;
-    color: $thm-white;
-}
-.navy-to-blue__button:hover {
-    background-color: $thm-blue;
-}
-
-.blue-to-navy__button {
-    background-color: $thm-blue;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: $thm-font-medlrg;
-    border: none;
-    color: $thm-white;
-}
-.blue-to-navy__button:hover {
-    background-color: $thm-navy;
-}
-
-.lightBlue-to-blue__button {
+.blue-to-grey__button {
     background-color: $thm-light-blue;
-    padding: 10px;
+    padding: 8px 16px;
     text-decoration: none;
-    border-radius: 5px;
-    font-size: $thm-font-medlrg;
+    border-radius: 10px;
+    font-size: $thm-font-med;
     border: none;
     color: $thm-white;
-}
-.lightBlue-to-blue__button:hover{
-    background-color: $thm-blue;
-}
+    font-weight: bold;
 
-//white buttons
-.white-to-red__button {
-    background-color: $thm-white;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: $thm-font-medlrg;
-    border: none;
-    color: $thm-burg;
-    font-weight: bold;
-}
-.white-to-red__button:hover{
-    background-color: $thm-red;
-    color:$thm-white;
-}
-.white-to-blue__button {
-    background-color: $thm-white;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: $thm-font-medlrg;
-    border: none;
-    color: $thm-light-blue;
-    font-weight: bold;
-}
-.white-to-blue__button:hover {
-    background-color: $thm-blue;
-    color:$thm-white; 
-}
-
-.whiteBlue-to-red__button {
-    background-color: $thm-white;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: $thm-font-medlrg;
-    border: none;
-    color: $thm-light-blue;
-    font-weight: bold;
-}
-.whiteBlue-to-red__button:hover{
-    background-color: $thm-red;
-    color:$thm-white;
+    &:hover{
+        background-color: $thm-light-grey;
+        color: $thm-charcoal;
+    }
+    
 }
 
 
 @media only screen and(max-width: 600px) {
-    .burg-to-red__button {
+    .red-to-grey {
         font-size: $thm-font-med;
     }
-    .red-to-burg__button {
-        font-size: $thm-font-med;
-    }
-    .navy-to-blue__button {
-        font-size: $thm-font-med;
-    }
-    .blue-to-navy__button {
-        font-size: $thm-font-med;
-    }
-    .white-to-red__button {
-        font-size: $thm-font-med;
-    }
-    .white-to-blue__button {
-        font-size: $thm-font-med;
-    }
-    .whitBlue-to-red__button {
+    .blue-to-grey__button {
         font-size: $thm-font-med;
     }
 }

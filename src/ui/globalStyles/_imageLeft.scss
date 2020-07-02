@@ -1,0 +1,22 @@
+.imageLeft__div-cont{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-gap: $thm-spacing-desktop-3;
+    padding: $thm-spacing-desktop-3 0;
+}
+
+.imageLeft__div-colorBox{
+    background-color: $thm-light-blue;
+    width: 8vw;
+    height: 3px;
+}
+.imageLeft__img{
+    background-size: cover;
+    height: 100%;
+    width: 30vw;
+}
+
+.imageLeft__div-textCont{
+    padding: $thm-spacing-desktop-3 0;
+}

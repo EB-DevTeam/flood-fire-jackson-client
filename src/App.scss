@@ -7,24 +7,45 @@
 @import "./ui/globalStyles/functions";
 @import "./ui/globalStyles/effects";
 @import "./ui/globalStyles/insurancePullout";
+@import "./ui/globalStyles/imageRight";
+@import "./ui/globalStyles/imageLeft";
+@import "./ui/globalStyles/imageLeftFlush";
+@import "./ui/globalStyles/backgroundImage";
+
 
 //Static
 @import './ui/static/nav/nav';
+@import './ui/static/header/header';
 @import './ui/static/footer/footer';
 @import "./ui/static/contactUsButton/contactUsButton";
 
 
 //Home
 @import './ui/views/home/home';
+@import './ui/views/home/childComp/highlights';
+@import './ui/views/home/childComp/homeBanner';
+@import './ui/views/home/childComp/qualityCraft';
+@import './ui/views/home/childComp/restoration';
+@import './ui/views/home/childComp/damageAssess';
+@import './ui/views/home/childComp/insuranceCallout';
+@import './ui/views/home/childComp/callCallout';
+@import './ui/views/home/childComp/service';
+@import './ui/views/home/childComp/highlights';
+
 
 
 //Water
 @import './ui/views/water/water';
-
+@import './ui/views/water/childComp/waterCallCallout';
+@import './ui/views/water/childComp/waterInCallout';
+@import './ui/views/water/childComp/damageRestore';
+@import './ui/views/water/childComp/damage';
+@import './ui/views/water/childComp/waterBanner';
+@import './ui/views/water/childComp/craftsmanship';
+@import './ui/views/water/childComp/restoreServices';
 
 //Fire
 @import './ui/views/fire/fire';
-
 
 //Mold
 @import './ui/views/mold/mold';
@@ -34,7 +55,6 @@
 
 //Insurance
 @import './ui/views/insurance/insurance';
-
 
 //Contact 
 @import './ui/views/contact/contact';

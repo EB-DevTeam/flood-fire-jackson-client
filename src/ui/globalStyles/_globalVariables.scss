@@ -4,23 +4,18 @@
 */
 
 // 1. Colors
-
 $thm-white: #fff;
 $thm-off-white: #F3F3F3;
-$thm-grey: rgba(46,46,46,.6);
-$thm-charcoal: #2E2E2E;
-$thm-light-blue: rgba(28,70,136,.6);
-$thm-blue: #1C4688;
-$thm-navy: #022B53;
-$thm-light-red: rgba(116,17,29,.6);
-$thm-red: #B90920;
-$thm-burg: #74111D;
+$thm-charcoal: #212121;
+$thm-grey: #3e3d3d;
+$thm-light-grey: #bebebe;
+$thm-light-red: #b06f77;
+$thm-light-blue: #6b85ac;
 
-
-
+$thm-burg: orange;
 // 2. Fonts
 $thm-font-primary: 'Open Sans', sans-serif; 
-$thm-font-header: 'Open Sans', sans-serif;
+$thm-font-header: 'Cabin Condensed', sans-serif;
 
 // Font Size
 $thm-font-tiny: 12px;
@@ -74,7 +69,8 @@ $thm-spacingNeg-desktop-4: -7em; //108px
 //Section Spacing
 section{
     width: 100%;
-    margin-bottom: $thm-spacing-desktop-4;
+    // padding-bottom: $thm-spacing-desktop-4;
+    // padding: $thm-spacing-desktop-2 0 $thm-spacing-desktop-2 0;
 }
 
 section>div{
@@ -82,15 +78,24 @@ section>div{
     margin: 0 auto;
 }
 
+
 @media only screen and(max-width: 600px) {
     section{
         margin-bottom: $thm-spacing-desktop-2;
     }
 }
+
 .buttonPadding{
     padding-bottom: $thm-spacing-desktop-1;
 }
 
+.dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
 
 // 4. Z-index
 $thm-z-floor: 0;

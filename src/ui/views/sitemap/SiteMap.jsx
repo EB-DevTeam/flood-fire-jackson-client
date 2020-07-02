@@ -17,24 +17,20 @@ function SiteMap({location}) {
             </Helmet>
             <section className="sitemap__section">
                 <div className="sitemap__div">
-                <h1 className="sitemap__h1">Flood &amp; Fire Solutions Sitemap</h1>
+                <h1 className="sitemap__h1">Flood &amp; Fire Solutions Jackson </h1>
                  <div className="sitemap__div-container">
+                
                 <Link className="sitemap__link--parent" to="/">Home</Link>
-
+                
+                <Link className="sitemap__link--child" to="/water">Water</Link>
+                
                 <Link className="sitemap__link--child" to="/fire">Fire</Link>
-                <Link className="sitemap__link--child" to="/water">Flood</Link>
+                
                 <Link className="sitemap__link--child" to="/mold">Mold</Link>
-                <Link className="sitemap__link--child" to="/commercial">Commercial</Link>
-                <Link className="sitemap__link--child" to="/rebuild">Rebuild</Link>
-                <Link className="sitemap__link--child" to="/other">Other</Link>
+               
+                <Link className="sitemap__link--child" to="/mold">Natural Disasters</Link>
 
                 <Link className="sitemap__link--child" to="/insurance">Insurance</Link>
-
-                <Link className="sitemap__link--child" to="/our-team">Our Team</Link>
-                <Link className="sitemap__link--child" to="/reviews">Reviews</Link>
-                <Link className="sitemap__link--child" to="/gallery">Gallery</Link>
-                <Link className="sitemap__link--child" to="/blog">Blog</Link>
-                <Link className="sitemap__link--child" to="/community">Community</Link>
 
                 <Link className="sitemap__link--child" to="/contact">Contact</Link>
 

@@ -9,7 +9,6 @@
 }
 
 .effects__div-gridBoxTwo{
-    margin-left: 10em;
     display: grid;
     grid-template-columns: 2fr 1fr;
     justify-content: center;
@@ -39,11 +38,7 @@
 .effectsn__h3 {
     margin-top: 0;
 }
-.effects__div-leftBlueBar, .effects__div-rightBlueBar{
-    background-color: $thm-light-blue;
-    width:1vw;
-    height:inherit;
-}
+
 @media only screen and(max-width: 800px) {
     .effects__div-gridBoxOne{
         margin-right: 0;
@@ -70,13 +65,4 @@
     .effects__div-leftImg{
         margin-bottom: $thm-spacing-desktop-1;
     }
-    .effects__div-rightBlueBar{
-        margin-top: $thm-spacing-desktop-2;
-        width:4vw;
-    }
-    .effects__div-leftBlueBar{
-        width:4vw;
-        margin-bottom: $thm-spacing-desktop-1;
-    }
-
 }

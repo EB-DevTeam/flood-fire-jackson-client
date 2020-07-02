@@ -1,0 +1,26 @@
+.restoration__section{
+    background-color: $thm-charcoal;
+}
+.restoration__div-iconsCont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    @include bp($thm-bp-medlrg){
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.restoration__icon{
+    @include flex( column, nowrap, center, center);
+    img {
+        width:75%;
+    }
+    h3{
+        margin-top:0;
+    }
+}
+.restoration__div-cont{
+    padding: $thm-spacing-desktop-2 0 $thm-spacing-desktop-3 0;
+}

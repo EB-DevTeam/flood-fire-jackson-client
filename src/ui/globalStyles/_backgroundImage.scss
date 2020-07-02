@@ -1,0 +1,36 @@
+.backgroundImage__div-img {
+    background-size: cover;
+    width:100%;    
+    height: 100%;
+}
+.backgroundImage__div-gridBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: $thm-spacing-desktop-3;
+    padding-bottom: $thm-spacing-desktop-3;
+    width:70%;
+    margin-left: 10%;
+}
+.backgroundImage__div-boxOne {
+    color: $thm-white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: $thm-spacing-desktop-2;
+
+}
+.backgroundImage__h2 {
+    color: $thm-white;
+    margin-top: 0;
+}
+
+@media only screen and(max-width: 1200px) {
+    .backgroundImage__div-gridBox{
+        grid-template-columns: 1fr;
+        width:80%;
+        margin-left: 10%;
+    }
+    .backgroundImage__div-boxOne{
+        padding: $thm-spacing-desktop-1;
+        padding-bottom: $thm-spacing-desktop-2;
+    }
+}
