@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import Helmet from 'react-helmet'
+import FireBanner from "./childComp/FireBanner";
+import FireRepair from "./childComp/FireRepair";
 
 
 function Fire() {
@@ -11,6 +13,8 @@ function Fire() {
     <div>
       <Helmet>
       </Helmet>
+      <FireBanner/>
+      <FireRepair/>
         
     </div>
   );
