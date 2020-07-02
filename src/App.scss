@@ -55,9 +55,11 @@
 
 //Mold
 @import './ui/views/mold/mold';
-@import './ui/views/mold/childComp/moldInsurance';
 @import './ui/views/mold/childComp/moldCall';
 @import './ui/views/mold/childComp/moldBanner';
+@import './ui/views/mold/childComp/destroyMold';
+@import './ui/views/mold/childComp/minimizeMold';
+@import './ui/views/mold/childComp/moldServices';
 
 //Natural Disasters 
 @import './ui/views/naturalDisaster/naturalDisaster';
