@@ -2,10 +2,12 @@
     background-image: url(../../../../images/natural/natBack.jpg);
 }
 
-.haveYour_section{
+.haveYour_gridBox, .haveYour_section{
     padding: $thm-spacing-desktop-3 0;
 }
 
-.haveYour_gridBox{
-    padding: $thm-spacing-desktop-3 0;
+@media only screen and(max-width: 600px) {
+    .haveYour_gridBox, .haveYour_section{
+        padding: $thm-spacing-desktop-2 0;
+    }
 }

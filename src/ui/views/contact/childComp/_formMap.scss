@@ -42,3 +42,9 @@
     padding: 5px;
     resize: none;
 }
+
+@media only screen and(max-width: 600px) {
+    .formMap__section{
+        padding: $thm-spacing-desktop-2 0;
+        }
+}

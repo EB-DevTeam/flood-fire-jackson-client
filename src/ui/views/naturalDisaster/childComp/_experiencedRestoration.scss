@@ -2,10 +2,12 @@
     background-image: url(../../../../images/natural/natRestor.jpg);
 }
 
-.experiencedRestoration_section{
+.experiencedRestoration_gridBox, .experiencedRestoration_section{
     padding: $thm-spacing-desktop-3 0;
 }
 
-.experiencedRestoration_gridBox{
-    padding: $thm-spacing-desktop-3 0;
+@media only screen and(max-width: 600px) {
+    .experiencedRestoration_gridBox, .experiencedRestoration_section{
+        padding: $thm-spacing-desktop-2 0;
+    }
 }
