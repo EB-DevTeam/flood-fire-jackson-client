@@ -3,46 +3,50 @@ import React from "react";
 export default function FireTwoImg() {
   return (
     <section className="fireTwoImg__section twoImg__section-container">
-      <div className="twoImg__div-gridBox">
+      <div>
+        <div className="twoImg__div-gridBox">
         <div className="fireTwoImg__img-one twoImg__img-one"></div>
         <div className="fireTwoImg__img-two twoImg__img-two"></div>
-        <div>
-          <h2>Fire Repair Services</h2>
-            <div className="buttonSpace">
-              <span className="dot twoImg__dot"></span>
-              Emergency response and board up service <br />
-            </div>
-            <div className="buttonSpace">
-              <span className="dot twoImg__dot"></span>
-              Smoke and soot removal <br />
-            </div>
-            <div className="buttonSpace">
-              <span className="dot twoImg__dot"></span>
-              Corrosion control <br />
-            </div>
-            <div className="buttonSpace">
-              <span className="dot twoImg__dot"></span>
-              Water damage cleanup and restoration <br />
-            </div>
         </div>
-        <div>
-          <div className="twoImg__div-space"></div>
-            <div className="buttonSpace">
-              <span className="dot twoImg__dot"></span>
+        <h2>Fire Repair Services</h2>
+        <div className="twoImg__div-gridBoxTwo">
+          <ul><span className="dot twoImg__dot"></span>
+            <li className="buttonSpace">
+              
+              Emergency response and board up service <br />
+            </li><span className="dot twoImg__dot"></span>
+            <li className="buttonSpace">
+              
+              Smoke and soot removal <br />
+            </li><span className="dot twoImg__dot"></span>
+            <li className="buttonSpace">
+              
+              Corrosion control <br />
+            </li> <span className="dot twoImg__dot"></span>
+            <li className="buttonSpace">
+             
+              Water damage cleanup and restoration <br />
+            </li>
+            </ul>
+          
+          <ul><span className="dot twoImg__dot"></span>
+            <li className="buttonSpace">
+              
               Complete cleaning <br />
-            </div>
-            <div className="buttonSpace">
-              <span className="dot twoImg__dot"></span>
+            </li><span className="dot twoImg__dot"> </span>
+            <li className="buttonSpace">
+             
               Decontamination <br />
-            </div>
-            <div className="buttonSpace">
-              <span className="dot twoImg__dot"></span>
+            </li><span className="dot twoImg__dot"></span>
+            <li className="buttonSpace">
+              
               Ozoning <br />
-            </div>
-            <div className="buttonSpace">
-              <span className="dot twoImg__dot"></span>
+            </li><span className="dot twoImg__dot"></span>
+            <li className="buttonSpace">
+              
               Deodorization services <br />
-            </div>
+            </li>
+            </ul>
         </div>
       </div>
     </section>

@@ -5,6 +5,17 @@
     background-image: url(../../../../images/natural/natServicesTwo.jpg);
     background-position: 91% 72%;
 }
+
+
+.disasterServices__section{
+    
+    ul{
+        list-style-position: outside;
+        padding-left: 0;
+    }
+    li{
+        margin-left: 20px;
+        margin-top:-20px;}}
 .disasterServices__div-space {
     padding-top: 9em;
 }
