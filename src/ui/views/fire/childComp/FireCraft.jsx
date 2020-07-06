@@ -17,7 +17,7 @@ export default function FireCraft() {
             Jackson Hole Wyoming.{" "}
           </p>
           <a className="blue-to-grey__button" href="tel:3072159741">
-            Call Us 24/7
+          (307) 215-9741
           </a>
         </div>
         <div className="imageRightFlush__div-img fireCraft_img">

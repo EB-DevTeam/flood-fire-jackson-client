@@ -15,7 +15,7 @@ export default function DamageRestore() {
           <p className="buttonPadding">
           We guarantee the quickest response time and also offer free water damage assessments so that you can get a full understanding of the situation and what needs to be done to fix the problem.
           </p>
-          <a className="blue-to-grey__button" href="tel:3072159741">Call Us 24/7</a>
+          <a className="blue-to-grey__button" href="tel:3072159741">(307) 215-9741</a>
         </div>
       </div>
     </section>
