@@ -4,3 +4,16 @@
 .fireTwoImg__img-two{
     background-image: url(../../../../images/fire/fireServicesTwo.jpg);
 }
+
+.fireTwoImg__section{
+
+    ul{
+        list-style-position: outside;
+        padding-left: 0;
+    }
+    li{
+        margin-left: 20px;
+        margin-top:-20px;
+    }
+    
+}

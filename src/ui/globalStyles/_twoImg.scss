@@ -1,14 +1,20 @@
 .twoImg__section-container {
-    background-color: $thm-charcoal;
-    color: $thm-white;
+   background-color: $thm-charcoal;
+   color: $thm-white;
    padding-top: $thm-spacing-desktop-3;
    padding-bottom: $thm-spacing-desktop-3;
+   
+   ul{
+       margin: 0;
+   }
 }
+
 .twoImg__div-gridBox {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0 $thm-spacing-desktop-2;
 }
+
 .twoImg__dot{
     background-color: $thm-light-red;
 }
@@ -23,8 +29,10 @@
     height: 20vw;
     background-size: cover;
 }
-.twoImg__div-space {
-    padding-top: 7em;
+.twoImg__div-gridBoxTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 $thm-spacing-desktop-2;
 }
 
 @media only screen and(max-width: 700px) {
@@ -32,6 +40,9 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 0 $thm-spacing-desktop-2;
+    }
+    .twoImg__div-gridBoxTwo{
+        grid-template-columns: 1fr;
     }
     .twoImg__img-two {
         display: none;

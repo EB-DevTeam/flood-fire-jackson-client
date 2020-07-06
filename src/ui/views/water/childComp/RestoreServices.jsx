@@ -7,32 +7,34 @@ export default function RestoreServices() {
         <div className="imageLeftFlush__div-img restoreServices_img"></div>
         <div className="imageLeftFlush__div-boxTwo">
           <h2>Water Restoration Services</h2>
-            <div className="buttonSpace">
-              <span className="dot restoreServices__dot"></span>
+          <ul><span className="dot restoreServices__dot"></span>
+            <li className="buttonSpace">
+              
               Identify, control and eliminate the source of the water damage.
               <br />
-            </div>
-            <div className="buttonSpace">
-              <span className="dot restoreServices__dot"></span>Extraction of
+            </li> <span className="dot restoreServices__dot"></span>
+            <li className="buttonSpace">
+             Extraction of
               standing water with high powered equipment.
               <br />
-            </div>
-            <div className="buttonSpace">
-              <span className="dot restoreServices__dot"></span>High-speed drying
+            </li><span className="dot restoreServices__dot"></span>
+            <li className="buttonSpace">
+              High-speed drying
               with strategically placed Air Movers.
               <br />
-            </div>
-            <div className="buttonSpace">
-              <span className="dot restoreServices__dot"></span>
+            </li><span className="dot restoreServices__dot"></span>
+            <li className="buttonSpace">
+              
               Dehumidifying affected areas with state-of-the-art efficient and
               effective equipment.
               <br />
-            </div>
-            <div className="buttonSpace">
-            <span className="dot restoreServices__dot"></span>
+            </li><span className="dot restoreServices__dot"></span>
+            <li className="buttonSpace">
+            
             Temperature control to provide the most effective drying conditions
             with TES Evaporator.
-            </div>
+            </li>
+            </ul>
         </div>
       </div>
     </section>
