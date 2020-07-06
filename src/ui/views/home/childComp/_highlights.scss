@@ -6,9 +6,15 @@
 
 .highlights__div-Cont {
     display: grid;
+    grid-template-columns: auto;
+    align-content: center;
+    justify-content: start;
+
+    @include bp($thm-bp-lrgxlg){
     grid-template-columns: auto auto auto;
     align-content: center;
     justify-content: space-between;
+    }
 }
 
 .highlights__div {
@@ -16,10 +22,15 @@
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     align-items: center;
+    margin: $thm-spacing-desktop-1 0;
+    @include bp($thm-bp-lrgxlg){
+        margin: 0;
+    }
     // justify-items:center;
 }
 
 .highlights__div>.highlights__icon {
+    
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 1;
@@ -35,6 +46,7 @@
     margin: 0;
     margin-left: 30px;
     font-size: large;
+
 }
 
 .highlights__div>p {
@@ -46,6 +58,7 @@
     margin-left: 30px;
     font-size: small;
 
+
 }
 
 .highlights__icon {
@@ -53,8 +66,12 @@
 }
 
 .highlights__iconStar {
-    font-size: 20px;
+    font-size: 15px;
     width: 30%;
+    @include bp($thm-bp-lrgxlg){
+        font-size: 20px;
+        width: 30%;
+    }
 }
 
 .highlights__div-stars {

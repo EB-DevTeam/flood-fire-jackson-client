@@ -1,5 +1,11 @@
 .restoration__section{
     background-color: $thm-charcoal;
+    h3{
+        font-size: $thm-font-med;
+        @include bp($thm-bp-sml){
+            font-size:$thm-font-lrg;
+        }
+    }
 }
 .restoration__div-iconsCont{
     display: grid;
