@@ -7,7 +7,7 @@ export default function FormMap() {
       <div className="formMap__div-gridBoxOne">
         <h2>Quick Contact Form</h2>
 
-              <form>
+              {/* <form>
                 <p>
                   Your Name*
                   <br />
@@ -70,8 +70,8 @@ export default function FormMap() {
                     class="wpcf7-form-control wpcf7-submit blue-to-grey__button"
                   />
                 </p>
-                {/* <div class="wpcf7-response-output wpcf7-display-none"></div> */}
-              </form>
+                {/* <div class="wpcf7-response-output wpcf7-display-none"></div> 
+              </form> */}
           
       </div>
       <div className="formMap__div-gridBoxTwo">
