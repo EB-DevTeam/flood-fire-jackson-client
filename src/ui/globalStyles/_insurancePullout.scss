@@ -21,8 +21,9 @@
 
 
 @media only screen and(max-width: 870px) {
-    .insurancePullout__div-cont {
-        width: 100%;
-        margin-bottom: $thm-spacing-desktop-3;
+    .callout__div-cont{
+        padding: $thm-spacing-desktop-1 0;
     }
 }
+    
+    

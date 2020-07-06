@@ -1,9 +1,18 @@
 .imageLeft__div-cont{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     align-items: center;
-    grid-gap: $thm-spacing-desktop-3;
+    grid-gap: 0;
     padding: $thm-spacing-desktop-3 0;
+    @include bp($thm-bp-medlrg){
+        grid-template-columns: auto auto;
+        grid-gap: $thm-spacing-desktop-3;
+        
+    }
+    .buttonPadding{
+        padding: 0;
+    }
+
 }
 
 .imageLeft__div-colorBox{
@@ -12,11 +21,21 @@
     height: 3px;
 }
 .imageLeft__img{
+    height: 45vw;
+    width: 100%;
+    margin-top: 0;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    width: 30vw;
+    @include bp($thm-bp-medlrg){
+        height: 100%;
+        width: 30vw;
+        margin-top: 3em;
+    }
 }
 
 .imageLeft__div-textCont{
-    padding: $thm-spacing-desktop-3 0;
+    padding: 0;
+    @include bp($thm-bp-medlrg){
+        padding: $thm-spacing-desktop-3 0;
+    }
 }
