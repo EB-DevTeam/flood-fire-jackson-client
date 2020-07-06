@@ -1,5 +1,5 @@
 import React from "react";
-import Face from "../../../../images/socialMedia/iconFacebook.png";
+// import Face from "../../../../images/socialMedia/iconFacebook.png";
 
 export default function FormMap() {
   return (
@@ -79,6 +79,7 @@ export default function FormMap() {
           <h2>Our Service Area</h2>
           <iframe
             className="formMap__map"
+            title="map of FFS address"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d455312.6364096082!2d-111.26150066766182!3d43.2508899837101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53535a0f79d1682f%3A0x6ca85d54ec1d4a28!2sMc%20Coy%20Creek%20Rd%2C%20Idaho!5e0!3m2!1sen!2sus!4v1594047311714!5m2!1sen!2sus"
             style={{ width: "750", height: "600", frameBorder: "0" }}
           ></iframe>
