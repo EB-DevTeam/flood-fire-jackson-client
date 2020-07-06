@@ -6,7 +6,7 @@ export default function WaterBanner () {
       <div className="banner__div-container">
         <h1>Water Restoration</h1>
         <h2>Servicing Jackson Hole</h2>
-        <a className="blue-to-grey__button" href="tel:3072159741">Call Us 24/7</a>
+        <a className="red-to-grey__button" href="tel:3072159741">Call Us 24/7</a>
       </div>
     </section>
   );

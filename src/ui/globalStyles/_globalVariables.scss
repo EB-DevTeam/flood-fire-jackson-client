@@ -78,13 +78,6 @@ section>div{
     margin: 0 auto;
 }
 
-
-@media only screen and(max-width: 600px) {
-    section{
-        margin-bottom: $thm-spacing-desktop-2;
-    }
-}
-
 .buttonPadding{
     padding-bottom: $thm-spacing-desktop-1;
 }
