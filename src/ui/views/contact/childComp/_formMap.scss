@@ -1,12 +1,25 @@
 .formMap__section{
     display: grid;
+    grid-template-columns: auto;
+    @include bp($thm-bp-sml){
     grid-template-columns: auto auto;
     width: 80%;
     margin: 0 auto;
     padding: $thm-spacing-desktop-3 0;
-    p{
-        line-height: .5;
     }
+    p{
+        line-height:1;
+        @include bp($thm-bp-sml){
+        line-height: .5;
+        }
+    }
+}
+.formMap__p-email{
+        line-height: 1!important;
+        padding-bottom: $thm-spacing-desktop-2;
+        @include bp($thm-bp-sml){
+            padding: 0;
+            }
 }
 
 .formMap__map{

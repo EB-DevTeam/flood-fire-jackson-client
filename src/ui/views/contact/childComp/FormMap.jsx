@@ -93,7 +93,7 @@ export default function FormMap() {
           <p>
             <b>Phone: </b> (307) 215-9741
           </p>
-          <p>
+          <p className="formMap__p-email">
             <b>Email: </b> admin@floodandfiresolutions.com
           </p>
         </div>
