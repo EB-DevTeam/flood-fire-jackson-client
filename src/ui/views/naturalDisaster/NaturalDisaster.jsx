@@ -4,6 +4,9 @@ import Helmet from 'react-helmet';
 import NaturalBanner from "./childComp/NaturalBanner";
 import NaturalCallCallout from "./childComp/NaturalCallCallout";
 import HaveYour from "./childComp/HaveYour";
+import DisasterServices from "./childComp/DisasterServices";
+import CraftsMatter from "./childComp/CraftsMatter";
+import ExperiencedRestoration from "./childComp/ExperiencedRestoration";
 
 
 
@@ -20,6 +23,9 @@ function NaturalDisaster() {
       <NaturalBanner/>
       <HaveYour/>
       <NaturalCallCallout/>
+      <CraftsMatter />
+      <DisasterServices />
+      <ExperiencedRestoration />
    
  </div>
   );

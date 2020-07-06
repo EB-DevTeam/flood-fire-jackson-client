@@ -83,6 +83,10 @@
 
 //Contact 
 @import './ui/views/contact/contact';
+@import './ui/views/contact/childComp/contact';
+@import './ui/views/contact/childComp/contactBanner';
+@import './ui/views/contact/childComp/formMap';
+
 
 //Sitemap
 @import './ui/views/sitemap/SiteMap';
