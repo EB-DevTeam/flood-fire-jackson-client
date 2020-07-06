@@ -1,5 +1,6 @@
 .restoration__section{
     background-color: $thm-charcoal;
+    margin: 0;
     h3{
         font-size: $thm-font-med;
         @include bp($thm-bp-sml){
@@ -32,5 +33,10 @@
     }
 }
 .restoration__div-cont{
-    padding: $thm-spacing-desktop-2 0 $thm-spacing-desktop-3 0;
+    padding: $thm-spacing-desktop-3 0 $thm-spacing-desktop-3 0;
+}
+@media only screen and(max-width: 600px) {
+    .restoration__div-cont{
+        padding: $thm-spacing-desktop-2 0 $thm-spacing-desktop-3 0;
+    }
 }
