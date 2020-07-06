@@ -18,6 +18,10 @@
     }
 }
 
+.restoration__div-iconsCont a{
+    text-decoration: none;
+}
+
 .restoration__icon{
     @include flex( column, nowrap, center, center);
     img {
