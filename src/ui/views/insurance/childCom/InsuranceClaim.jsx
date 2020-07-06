@@ -2,27 +2,22 @@ import React from "react";
 
 export default function InsuranceClaim() {
   return (
-    <section className="fireCraft__section">
-      <div className="imageRightFlush__div-gridBox fireCraft_gridBox">
+    <section className="insuranceClaim__section">
+      <div className="imageRightFlush__div-gridBox insuranceClaim__gridBox">
         <div>
-          <h2>Craftsmanship Matters</h2>
-          <div className="imageRightFlush__div-colorBox"></div>
-          <p>We are not the typical restoration company.</p>
+          <h2>Insurance Claims</h2>
           <p className="buttonPadding">
-            Flood & Fire Solutions of Jackson specializes in high end luxury
-            projects. Our professionals approach projects with a keen insight
-            and experience in advanced woodworking and craftsmanship, hydronic
-            heat systems, automated systems and more. Our Superior craftsman
-            take pride in providing the highest quality of service in the
-            Jackson Hole Wyoming.{" "}
+            For most people that experience a flood, fire, mold or natural
+            disaster, it is likely the first time that something of this
+            magnitude has ever happened to them. At Flood & Fire Solutions, we
+            understand that there are a number of questions that come to mind as
+            the initial shock subsides.
           </p>
           <a className="blue-to-grey__button" href="tel:3072159741">
-            Call Us 24/7
+            (307) 215-9741
           </a>
         </div>
-        <div className="imageRightFlush__div-img fireCraft_img">
-
-        </div>
+        <div className="imageRightFlush__div-img insuranceClaim_img"></div>
       </div>
     </section>
   );
