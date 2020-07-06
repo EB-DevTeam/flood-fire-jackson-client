@@ -12,3 +12,35 @@
 .twoImg__dot{
     background-color: $thm-light-red;
 }
+
+.twoImg__img-one{
+    width: 100%;
+    height: 20vw;
+    background-size: cover;
+}
+.twoImg__img-two{
+    width: 100%;
+    height: 20vw;
+    background-size: cover;
+}
+.twoImg__div-space {
+    padding-top: 4em;
+}
+
+@media only screen and(max-width: 700px) {
+    .twoImg__div-gridBox {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0 $thm-spacing-desktop-2;
+    }
+    .twoImg__img-one {
+        display: none;
+    }
+    .twoImg__img-two {
+        height: 30vw;
+        background-position: center 25%;
+    }
+    .twoImg__div-space {
+        padding-top: 0;
+    }
+}
