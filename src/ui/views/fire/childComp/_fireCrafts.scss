@@ -14,3 +14,12 @@
         background-position: center 40%;
     }
 }
+
+@media only screen and(max-width: 600px) {
+    .fireCraft_section{
+        padding: $thm-spacing-desktop-2 0;
+    }
+    .fireCraft_gridBox{
+        padding: $thm-spacing-desktop-2 0;
+    }
+}
