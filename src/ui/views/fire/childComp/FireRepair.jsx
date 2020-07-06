@@ -23,7 +23,7 @@ export default function FireRepair() {
           <a className="blue-to-grey__button" href="tel:3072159741">(307) 215-9741</a>
         </div>
 
-        <div className="imageRight__img qualityCraft__img"></div>
+        <div className="imageRight__img fireRepair__img"></div>
       </div>
     </section>
   );
