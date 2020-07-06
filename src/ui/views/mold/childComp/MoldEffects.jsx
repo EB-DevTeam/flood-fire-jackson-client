@@ -11,7 +11,7 @@ export default function MoldEffects() {
           <p className="buttonPadding">Mold is a symptom of high moisture. If allowed to exist for prolonged periods, mold can be damaging to any structure by promoting the development of wood decay fungi.
           </p>
           <a className="blue-to-grey__button" href="tel:3072159741">
-            Call Us 24/7
+          (307) 215-9741
           </a>
         </div>
         <div className="imageRightFlush__div-img moldEffects_img">
