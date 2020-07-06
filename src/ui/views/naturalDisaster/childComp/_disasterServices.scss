@@ -5,3 +5,12 @@
     background-image: url(../../../../images/natural/natServicesTwo.jpg);
     background-position: 91% 72%;
 }
+.disasterServices__div-space {
+    padding-top: 9em;
+}
+
+@media only screen and(max-width: 700px) {
+    .disasterServices__div-space {
+        padding-top: 0em;
+    }
+}

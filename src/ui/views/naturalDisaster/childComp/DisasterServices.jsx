@@ -20,7 +20,7 @@ export default function DisasterServices() {
           </p>
         </div>
         <div>
-          <div className="twoImg__div-space"></div>
+          <div className="disasterServices__div-space"></div>
           <p className="twoImg__p-paddingTop">
             <span className="dot twoImg__dot"></span>
             Complete cleaning <br />
