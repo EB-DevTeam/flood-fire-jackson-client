@@ -9,7 +9,6 @@ import DamageAssess from "./childComp/DamageAssess";
 import Service from "./childComp/Service";
 import Highlights from "./childComp/Highlights";
 
-
 function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -17,14 +16,29 @@ function Home() {
 
   return (
     <div>
-      <Helmet></Helmet>
+      <Helmet>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+          Luxury Home Restoration - Servicing Jackson Hole | Flood &amp; Fire
+          Solutions
+        </title>
+        <meta
+          name="keywords"
+          content="Cabin Repair, Jackson, Jackson Hole, Alpine, Water Damage, Restoration, Water, Repair, Water Cleanupt"
+        />
+        <meta
+          name="description"
+          content="An emergency restoration company near you. Flood & Fire Solutions Jackson repairs water, fire, and mold damage in Wyoming. Available 24/7 for emergency cleanup. "
+        />
+      </Helmet>
+
       <HomeBanner />
       <Highlights />
-      <Restoration/>
-
-      <QualityCraft/>
+      <Restoration />
+      <QualityCraft />
       <CallCallout />
-      <DamageAssess/>
+      <DamageAssess />
       <InsuranceCallout />
       <Service />
     </div>

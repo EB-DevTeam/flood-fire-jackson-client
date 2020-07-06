@@ -17,18 +17,30 @@ function Water() {
   return (
     <div>
       <Helmet>
-        <title></title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+          {" "}
+          Water Damage Restoration - Servicing Jackson Hole | Flood & Fire
+          Solutions{" "}
+        </title>
+        <meta
+          name="description"
+          content=" Flood & Fire Solutions Jackson provides water damage restoration for luxury homes in Jackson Hole and surrounding areas 24/7.
+"/>
+        <meta
+          name="keywords"
+          content="Water Damage, Water Cleanup, Restoration Company, Pipe Leaks, Flood Restoration, Jackson Hole"
+        />
       </Helmet>
 
       <WaterBanner />
       <DamageRestore />
       <WaterCallCallout />
-      <WaterDamage/>
-      <RestoreServices/>
+      <WaterDamage />
+      <RestoreServices />
       <WaterInCallout />
-      <Craftsmanship/>
+      <Craftsmanship />
     </div>
   );
 }

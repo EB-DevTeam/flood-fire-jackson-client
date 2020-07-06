@@ -39,3 +39,8 @@
         padding: $thm-spacing-desktop-3 0;
     }
 }
+@media only screen and(max-width: 600px) {
+    .imageLeft__div-colorBox{
+        width: 20vw;
+    }
+}
