@@ -1,13 +1,13 @@
 .navClaims__section-cont {
-    padding: $thm-spacing-desktop-3 0;
     background-color: $thm-grey;
+    margin-bottom: $thm-spacing-desktop-3;
 }
 .navClaims__div-gridBox {
     display: grid;
     grid-template-columns: 1fr 8fr;
     grid-template-rows: auto auto;
-    padding-top: $thm-spacing-desktop-3;
-    // align-items: center;
+    //padding-top: $thm-spacing-desktop-3;
+    align-items: center;
     grid-gap: $thm-spacing-desktop-1;
     grid-row-gap: 0;
 }
@@ -26,7 +26,7 @@
 
 
 .navClaims__div-boxTwo{
-    align-self: end;
+    align-items:center;
 }
 
 .navClaims__div-boxThree{
@@ -36,14 +36,19 @@
 @media only screen and(max-width: 800px) {
     .navClaims__div-gridBox {
         grid-template-columns: 2fr 8fr;
+        grid-template-rows: auto auto;
+    }
+    .navClaims__div-boxOne {
+        grid-row-start: 1;
+        grid-row-end: 2;
     }
     .navClaims__div-boxTwo {
         grid-row-start: 1;
-        grid-row-end: 3;
+        grid-row-end: 2;
     }
     .navClaims__div-boxThree {
         grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column-end: 3;
     }
     
 }

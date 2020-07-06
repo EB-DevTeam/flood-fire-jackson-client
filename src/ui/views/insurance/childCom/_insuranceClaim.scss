@@ -1,13 +1,19 @@
 .insuranceClaim_img{
     background-image: url(../../../../images/insur/insurClaims.jpg);
-    height: 130%;
+    background-position: center 20%;
+    height: 25vw;
 }
 
 .insuranceClaim__section{
-    padding: $thm-spacing-desktop-3 0;
     background-color: $thm-charcoal;
 }
 
 .insuranceClaim__gridBox{
     padding: $thm-spacing-desktop-3 0;
+}
+@media only screen and(max-width: 800px) {
+    .insuranceClaim_img{
+
+    height: 35vw;
+    }
 }
