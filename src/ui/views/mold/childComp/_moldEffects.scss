@@ -2,10 +2,12 @@
     background-image: url(../../../../images/mold/moldEffects.jpg);
 }
 
-.moldEffects_section{
+.moldEffects_gridBox, .moldEffects_section{
     padding: $thm-spacing-desktop-3 0;
 }
 
-.moldEffects_gridBox{
-    padding: $thm-spacing-desktop-3 0;
+@media only screen and(max-width: 600px) {
+    .moldEffects_gridBox, .moldEffects_section{
+        padding: $thm-spacing-desktop-2 0;
+    }
 }
