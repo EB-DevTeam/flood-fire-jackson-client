@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Helmet from 'react-helmet';
+import InsuranceBanner from "./childCom/InsuranceBanner";
 
 
 
@@ -12,6 +13,7 @@ function Insurance() {
     <div>
        <Helmet>
          </Helmet>
+         <InsuranceBanner/>
       
     </div>
   );
