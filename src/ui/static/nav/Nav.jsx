@@ -93,8 +93,8 @@ function Nav({ toggle, toggleNav }) {
 
         {/* <li >
           <div className="nav__div-callCont">
-          <a href="tel:2085217347" className="nav__a-callButton">
-            (208) 521-9741
+          <a href="tel:3072159741" className="nav__a-callButton">
+            (307) 215-9741
        
           <span>
           Available 24/7

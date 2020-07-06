@@ -12,7 +12,7 @@ function TermsOfUse(props) {
         </title>
         <meta
           name="description"
-          content="Flood &amp; Fire Solutions provides Cleaning &amp; Restoration services for a variety of disasters, including water and flood damage, fire, mold & more in Idaho Falls, ID. Call Us 24/7 at (208) 524-9741."
+          content="Flood &amp; Fire Solutions provides Cleaning &amp; Restoration services for a variety of disasters, including water and flood damage, fire, mold & more in Idaho Falls, ID. Call Us 24/7 at (307) 2015-9741"
         />
       </Helmet>
 
