@@ -19,6 +19,14 @@
 
 .navClaims__div-gridBox img{
     width: 100%;
+    padding: 0;
+    @include bp($thm-bp-sml){
+    padding: .5em;
+    }
+    @include bp($thm-bp-xlrg){
+        padding: 1.2em;
+        }
+
 }
 .navClaims__div-gridBox h3 {
     margin:0;
