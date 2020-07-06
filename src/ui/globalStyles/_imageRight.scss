@@ -4,7 +4,7 @@
     align-items: center;
     grid-gap: 0;
     padding: $thm-spacing-desktop-2 0;
-    @include bp($thm-bp-medlrg){
+    @include bp($thm-bp-sml){
         padding: $thm-spacing-desktop-3 0;
         grid-template-columns: auto auto;
         grid-gap: $thm-spacing-desktop-2;
@@ -20,7 +20,7 @@
     background-size: cover;
     height: 45vw;
     width: 100%;
-    @include bp($thm-bp-medlrg){
+    @include bp($thm-bp-sml){
         height: 100%;
         width: 30vw;    
     }
@@ -28,7 +28,7 @@
 
 .imageRight__div-textCont{
     padding: 0;
-    @include bp($thm-bp-medlrg){
+    @include bp($thm-bp-sml){
         padding: $thm-spacing-desktop-2 0;
     }
 }
