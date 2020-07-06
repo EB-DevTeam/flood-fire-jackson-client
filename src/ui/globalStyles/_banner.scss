@@ -34,10 +34,12 @@
 
     .banner__section-container {
         height: 450px;
-        
     }
     
     .banner__div-container h1 {
         font-size: $thm-font-xult;
+    }
+    .banner__div-container h2 {
+        font-size: $thm-font-lrg;
     }
 }
