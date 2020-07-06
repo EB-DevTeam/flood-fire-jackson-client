@@ -1,3 +1,9 @@
 .homeBanner__section{
     background-image: url(../../../../images/home/homeBanner.jpg);
 }
+
+@media only screen and(max-width: 600px) {
+    .homeBanner__section{
+        background-position: 60% center;
+    }
+}
