@@ -8,7 +8,7 @@ export default function FireTwoImg() {
         <div className="fireTwoImg__img-two twoImg__img-two"></div>
         <div>
           <h2>Fire Repair Services</h2>
-          <p>
+          <p className="twoImg__p-paddingTop">
             <div className="buttonSpace">
               <span class="dot twoImg__dot"></span>
               Emergency response and board up service <br />
@@ -29,7 +29,7 @@ export default function FireTwoImg() {
         </div>
         <div>
           <div className="twoImg__div-space"></div>
-          <p>
+          <p className="twoImg__p-paddingTop">
             <div className="buttonSpace">
               <span class="dot twoImg__dot"></span>
               Complete cleaning <br />
