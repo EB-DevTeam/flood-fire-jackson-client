@@ -16,7 +16,7 @@ function ContactUsButton() {
       </a>
 
       <a
-        href="tel:208-521-9741"
+        href="tel:307-215-9741"
         // onClick={() => Services.trackEvent("contact", "click", "call")}
         className=" 
         contact-us-button-phone 

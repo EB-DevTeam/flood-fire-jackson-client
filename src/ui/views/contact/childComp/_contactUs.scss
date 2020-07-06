@@ -1,5 +1,6 @@
 .contactUs_img{
-    background-image: url(../../../../images/contact/conactContactUs.jpg);
+    background-image: url(../../../../images/contact/contactUs.jpg);
+    background-position: 90% 70%;
 
 }
 
@@ -11,3 +12,7 @@
 .contactUs_gridBox{
     padding: $thm-spacing-desktop-3 0;
 }
+
+.contactUs__div-text{
+    padding: $thm-spacing-desktop-2 0;
+} 
