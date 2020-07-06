@@ -98,7 +98,9 @@ $header-icon-br-color: $thm-off-white;
     }
 }
 .header__logo-iconText{
-    display: none;
+    @include bp($thm-bp-sml){
+        display: none;
+    }
     @include bp($thm-bp-medlrg){
         display: block;
     }
