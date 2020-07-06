@@ -14,7 +14,7 @@ export default function QualityCraft() {
           </p>
         </div>
 
-        <div className="imageRight__img toolsTrade__img">
+        <div className="imageRight__img qualityCraft__img">
         </div>
       </div>
     </section>
