@@ -1,0 +1,14 @@
+.twoImg__section-container {
+    background-color: $thm-charcoal;
+    color: $thm-white;
+   padding-top: $thm-spacing-desktop-3;
+   padding-bottom: $thm-spacing-desktop-3;
+}
+.twoImg__div-gridBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 $thm-spacing-desktop-2;
+}
+.twoImg__dot{
+    background-color: $thm-light-red;
+}

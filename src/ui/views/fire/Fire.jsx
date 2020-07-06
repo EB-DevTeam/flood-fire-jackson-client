@@ -5,6 +5,7 @@ import FireRepair from "./childComp/FireRepair";
 import FireCallout from "./childComp/FireCallOut";
 import FireCraft from "./childComp/FireCraft";
 import FireTwoImg from "./childComp/FireTwoImg";
+import ToolsTrade from "./childComp/ToolsTrade";
 
 
 function Fire() {
@@ -21,6 +22,7 @@ function Fire() {
       <FireCallout/>
       <FireCraft/>
       <FireTwoImg/>
+      <ToolsTrade/>
     </div>
   );
 }

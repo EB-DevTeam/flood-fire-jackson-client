@@ -3,24 +3,33 @@ import React from "react";
 export default function FireTwoImg() {
   return (
     <section className="fireTwoImg__section twoImg__section-container">
-      <div>
-        <div>
-          <div></div>
-          <div></div>
-        </div>
+      <div className="twoImg__div-gridBox">
+        <div className="fireTwoImg__img-one"></div>
+        <div className="fireTwoImg__img-two"></div>
         <div>
           <h2>Fire Repair Services</h2>
-          <li>Emergency response and board up service</li>
-          <li>Smoke and soot removal</li>
-          <li>Corrosion control</li>
-          <li>Water damage cleanup and restoration</li>
+          <span class="dot twoImg__dot"></span>
+            Emergency response and board up service <br/>
+            <span class="dot twoImg__dot"></span>
+          Smoke and soot removal <br/>
+          <span class="dot twoImg__dot"></span>
+          Corrosion control <br/>
+          <span class="dot twoImg__dot"></span>
+          Water damage cleanup and restoration <br/>
         </div>
         <div>
-          <h2></h2>
-          <li>Complete cleaning</li>
-          <li>Decontamination</li>
-          <li>Ozoning</li>
-          <li>Deodorization services</li>
+          <br />
+          <br />
+          <br />
+          <br />
+          <span class="dot twoImg__dot"></span>
+          Complete cleaning <br/>
+          <span class="dot twoImg__dot"></span>
+          Decontamination <br/>
+          <span class="dot twoImg__dot"></span>
+          Ozoning <br/>
+          <span class="dot twoImg__dot"></span>
+          Deodorization services <br/>
         </div>
       </div>
       <div>

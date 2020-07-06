@@ -2,7 +2,7 @@ import React from "react";
 
 export default function QualityCraft() {
   return (
-    <section className="qualityCraft__section">
+    <section>
       <div className="imageRight__div-cont">
         <div className="imageRight__div-textCont">
           <h2 className="imageRight__h2">
@@ -14,7 +14,7 @@ export default function QualityCraft() {
           </p>
         </div>
 
-        <div className="imageRight__img qualityCraft__img">
+        <div className="imageRight__img toolsTrade__img">
         </div>
       </div>
     </section>
