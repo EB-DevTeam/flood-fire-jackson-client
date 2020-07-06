@@ -1,5 +1,5 @@
 .effects__div-gridBoxOne{
-    margin-right: 10em;
+    //margin-right: 10em;
     display: grid;
     grid-template-columns: 1fr 2fr;
     justify-content: center;
@@ -29,7 +29,6 @@
 }
 
 .effects__div-leftImg, .effects__div-rightImg{
-    // background-image: url('../../images/banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 25vw;
@@ -48,11 +47,14 @@
     }
 }
 @media only screen and(max-width: 600px) {
+    .effects__div-leftImg{
+        display: none;
+    }
     .effects__div-gridBoxOne, .effects__div-gridBoxTwo{
         display: block;
         margin-right: 0;
     }
-    .effects__div-leftImg, .effects__div-rightImg{
+    .effects__div-rightImg{
         // background-image: url('../../images/banner.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -61,8 +63,5 @@
     }
     .effects__div-rightImg{
         margin-top: $thm-spacing-desktop-2;
-    }
-    .effects__div-leftImg{
-        margin-bottom: $thm-spacing-desktop-1;
     }
 }

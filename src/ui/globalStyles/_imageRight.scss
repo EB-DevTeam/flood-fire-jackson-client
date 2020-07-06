@@ -19,6 +19,7 @@
     background-size: cover;
     height: 45vw;
     width: 100%;
+    margin-top: 3em;
     @include bp($thm-bp-medlrg){
         height: 100%;
         width: 30vw;

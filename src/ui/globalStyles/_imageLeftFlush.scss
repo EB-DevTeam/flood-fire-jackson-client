@@ -24,19 +24,16 @@
     width: 8vw;
     height: 3px;
 }
-@media only screen and(max-width: 800px) {
-    .imageLeftFlush__div-img {
-        height: 50vh;
-    }
-}
 
-@media only screen and(max-width: 600px) {
+@media only screen and(max-width: 800px) {
     .imageLeftFlush__div-gridBox {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
+        //grid-gap: 0;
     }
     .imageLeftFlush__div-boxTwo {
-        margin-left: 0vw;
+        padding: 0;
+        padding-left: $thm-spacing-desktop-3;
     }
     .imageLeftFlush__div-img {
         grid-row-start: 2;
