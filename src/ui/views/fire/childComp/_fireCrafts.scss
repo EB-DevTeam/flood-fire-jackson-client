@@ -1,6 +1,5 @@
 .fireCraft_img{
-    background-image: url(../../../../images/fire/fireCraft.jpg);
-    height: 100%;
+    background-image: url(../../../../images/fire/fireCraft.jpg);  
 }
 
 .fireCraft_section{
@@ -9,4 +8,9 @@
 
 .fireCraft_gridBox{
     padding: $thm-spacing-desktop-3 0;
+}
+@media only screen and(max-width: 800px) {
+    .fireCraft_img{
+        background-position: center 40%;
+    }
 }

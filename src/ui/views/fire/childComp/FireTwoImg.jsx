@@ -4,40 +4,50 @@ export default function FireTwoImg() {
   return (
     <section className="fireTwoImg__section twoImg__section-container">
       <div className="twoImg__div-gridBox">
-        <div className="fireTwoImg__img-one"></div>
-        <div className="fireTwoImg__img-two"></div>
+        <div className="fireTwoImg__img-one twoImg__img-one"></div>
+        <div className="fireTwoImg__img-two twoImg__img-two"></div>
         <div>
           <h2>Fire Repair Services</h2>
-          <span class="dot twoImg__dot"></span>
-            Emergency response and board up service <br/>
-            <span class="dot twoImg__dot"></span>
-          Smoke and soot removal <br/>
-          <span class="dot twoImg__dot"></span>
-          Corrosion control <br/>
-          <span class="dot twoImg__dot"></span>
-          Water damage cleanup and restoration <br/>
+          <p>
+            <div className="buttonSpace">
+              <span class="dot twoImg__dot"></span>
+              Emergency response and board up service <br />
+            </div>
+            <div className="buttonSpace">
+              <span class="dot twoImg__dot"></span>
+              Smoke and soot removal <br />
+            </div>
+            <div className="buttonSpace">
+              <span class="dot twoImg__dot"></span>
+              Corrosion control <br />
+            </div>
+            <div className="buttonSpace">
+              <span class="dot twoImg__dot"></span>
+              Water damage cleanup and restoration <br />
+            </div>
+          </p>
         </div>
         <div>
-          <br />
-          <br />
-          <br />
-          <br />
-          <span class="dot twoImg__dot"></span>
-          Complete cleaning <br/>
-          <span class="dot twoImg__dot"></span>
-          Decontamination <br/>
-          <span class="dot twoImg__dot"></span>
-          Ozoning <br/>
-          <span class="dot twoImg__dot"></span>
-          Deodorization services <br/>
+          <div className="twoImg__div-space"></div>
+          <p>
+            <div className="buttonSpace">
+              <span class="dot twoImg__dot"></span>
+              Complete cleaning <br />
+            </div>
+            <div className="buttonSpace">
+              <span class="dot twoImg__dot"></span>
+              Decontamination <br />
+            </div>
+            <div className="buttonSpace">
+              <span class="dot twoImg__dot"></span>
+              Ozoning <br />
+            </div>
+            <div className="buttonSpace">
+              <span class="dot twoImg__dot"></span>
+              Deodorization services <br />
+            </div>
+          </p>
         </div>
-      </div>
-      <div>
-        <p>
-          Minimize disruption to your home or office. Let Flood & Fire Solutions
-          help you recover from fire damage. Contact us today at (307)215-9741
-          to learn more.
-        </p>
       </div>
     </section>
   );

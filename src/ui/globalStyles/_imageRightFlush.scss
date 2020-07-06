@@ -1,7 +1,8 @@
 .imageRightFlush__div-img {
     background-size: cover;
-    height: 100%;
-    width: 48vw;
+    height: 25vw;
+    background-size: cover;
+    width: auto;
     margin-right: -10vw;
 }
 .imageRightFlush__div-gridBox {
@@ -29,7 +30,6 @@
 
     .imageRightFlush__div-img {
         grid-row-start: 2;
-        width: 115%;
-        height: 35vh;
+        height: 35vw;
     }
 } 
