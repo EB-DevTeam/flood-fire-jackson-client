@@ -3,11 +3,11 @@
     grid-template-columns: auto;
     align-items: center;
     grid-gap: 0;
-    padding: $thm-spacing-desktop-3 0;
+    padding: $thm-spacing-desktop-2 0;
     @include bp($thm-bp-medlrg){
         grid-template-columns: auto auto;
         grid-gap: $thm-spacing-desktop-3;
-        
+        padding: $thm-spacing-desktop-3 0;
     }
     .buttonPadding{
         padding: 0;
