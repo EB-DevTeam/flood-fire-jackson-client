@@ -48,3 +48,9 @@
         margin-bottom: 0;
     }
 }
+@media only screen and(max-width: 600px) {
+    .twoImg__section-container {
+       padding-top: $thm-spacing-desktop-2;
+       padding-bottom: $thm-spacing-desktop-2;
+    }
+}
