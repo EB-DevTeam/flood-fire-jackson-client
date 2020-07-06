@@ -7,6 +7,8 @@ import MoldCall from './childComp/MoldCall';
 import DestroyMold from './childComp/DestroyMold';
 import MoldServices from "./childComp/MoldServices";
 import MinimizeMold from "./childComp/MinimizeMold";
+import MoldInsurance from "./childComp/moldInsurance";
+import MoldEffects from "./childComp/MoldEffects";
 
 function Mold() {
   useEffect(() => {
@@ -19,8 +21,10 @@ function Mold() {
       </Helmet>
       
       <MoldBanner/>
-      <MoldCall/>  
+      <MoldEffects />
+      <MoldInsurance />
       <DestroyMold/>
+      <MoldCall/>  
       <MoldServices/>
       <MinimizeMold/>
  </div>
