@@ -10,7 +10,12 @@
     align-content: center;
     justify-content: center;
 
+    @include bp($thm-bp-medlrg){
+      @include flex (row, wrap, center, center);
+        }
+
     @include bp($thm-bp-lrgxlg){
+        display: grid;
     grid-template-columns: auto auto auto;
     align-content: center;
     justify-content: space-between;
@@ -23,6 +28,8 @@
     grid-template-rows: auto auto;
     align-items: center;
     margin: $thm-spacing-desktop-1 0;
+
+  
     @include bp($thm-bp-lrgxlg){
         margin: 0;
     }
