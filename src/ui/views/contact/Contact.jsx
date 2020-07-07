@@ -13,9 +13,6 @@ function Contact() {
   return (
     <div>
       <Helmet>
-<<<<<<< HEAD
-        
-=======
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
@@ -29,7 +26,6 @@ function Contact() {
           name="keywords"
           content="Phone, Email, contact, Flood & Fire Solutions, Call, Contact Information, Restoration Company"
         />
->>>>>>> d75efc878eee3c0b625be2ece2d2c95967ddedb0
       </Helmet>
       <ContactBanner />
       <ContactUs />
