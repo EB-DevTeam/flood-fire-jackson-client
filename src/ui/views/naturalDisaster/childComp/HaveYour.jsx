@@ -12,7 +12,8 @@ export default function HaveYour() {
 
           </p>
           <p className="buttonPadding">
-          Our immediate response team is standing by and are ready to help!</p>
+          Our immediate response team is standing by and are ready to help!
+          </p>
           <a className="blue-to-grey__button" href="tel:3072159741"> (307) 215-9741</a>
         </div>
       </div>

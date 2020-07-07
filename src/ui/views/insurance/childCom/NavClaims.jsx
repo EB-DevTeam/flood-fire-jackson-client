@@ -69,7 +69,7 @@ export default function NavClaims() {
 
         
         <p className="buttonPadding">
-        At Flood & Fire Solutions of Jackson, we’ve worked with all of the major insurance providers, and can navigate through the entire claims process with you quickly and efficiently. And because we understand that this type of event is often a first for our customers, the following offers a general road map for navigating through the entire process. If you have any questions about our services, how we work with insurance providers, or anything related to the insurance process, please feel free to contact us.
+        At Flood &amp; Fire Solutions of Jackson, we’ve worked with all of the major insurance providers, and can navigate through the entire claims process with you quickly and efficiently. And because we understand that this type of event is often a first for our customers, the following offers a general road map for navigating through the entire process. If you have any questions about our services, how we work with insurance providers, or anything related to the insurance process, please feel free to contact us.
         </p>
         <a href="tel:3072159741" className="red-to-grey__button">
           (307) 215-9741

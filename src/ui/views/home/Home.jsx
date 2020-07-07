@@ -29,7 +29,7 @@ function Home() {
         />
         <meta
           name="description"
-          content="An emergency restoration company near you. Flood & Fire Solutions Jackson repairs water, fire, and mold damage in Wyoming. Available 24/7 for emergency cleanup. "
+          content="An emergency restoration company near you. Flood &amp; Fire Solutions Jackson repairs water, fire, and mold damage in Wyoming. Available 24/7 for emergency cleanup. "
         />
       </Helmet>
 

@@ -7,14 +7,10 @@ export default function FireCraft() {
         <div>
           <h2>Craftsmanship Matters</h2>
           <div className="imageRightFlush__div-colorBox"></div>
-          <p>We are not the typical restoration company.</p>
+          <p>We are not the typical restoration company.
+</p>
           <p className="buttonPadding">
-            Flood & Fire Solutions of Jackson specializes in high end luxury
-            projects. Our professionals approach projects with a keen insight
-            and experience in advanced woodworking and craftsmanship, hydronic
-            heat systems, automated systems and more. Our Superior craftsman
-            take pride in providing the highest quality of service in the
-            Jackson Hole Wyoming.{" "}
+          Flood & Fire Solutions of Jackson specializes in high end luxury projects. Our professionals approach projects with a keen insight and experience in advanced woodworking and craftsmanship, hydronic heat systems, automated systems and more. Our Superior craftsman take pride in providing the highest quality of service in  Jackson Hole and Western Wyoming.
           </p>
           <a className="blue-to-grey__button" href="tel:3072159741">
           (307) 215-9741

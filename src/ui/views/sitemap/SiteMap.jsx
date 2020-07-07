@@ -8,11 +8,11 @@ function SiteMap({location}) {
     return(
         <main className="sitemap">
             {/* <Helmet>
-                <title>Sitemap | Flood &amp; Fire Premium Cleaning & Restoration</title>
+                <title>Sitemap | Flood &amp; Fire Premium Cleaning &amp; Restoration</title>
                 <meta name="description" content="Sitemap to the core webpages on the Flood &amp; Fire Solutions website."/>
             </Helmet> */}
             <Helmet>
-                <title>Sitemap | Flood & Fire Premium Cleaning & Restoration</title>
+                <title>Sitemap | Flood &amp; Fire Premium Cleaning &amp; Restoration</title>
                 <meta name="description" content="Sitemap to the core webpages on the flood & fire solutions website."/>
             </Helmet>
             <section className="sitemap__section">

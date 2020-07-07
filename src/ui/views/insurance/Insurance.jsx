@@ -15,11 +15,11 @@ function Insurance() {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
-          Insurance - Servicing Jackson Hole | Flood & Fire Solutions
+          Insurance - Servicing Jackson Hole | Flood &amp; Fire Solutions
         </title>
         <meta
           name="description"
-          content="Flood & Fire Solutions Jackson takes all major insurance providers. We service Jackson Hole and surrounding areas."
+          content="Flood &amp; Fire Solutions Jackson takes all major insurance providers. We service Jackson Hole and surrounding areas."
         />
         <meta
           name="keywords"
