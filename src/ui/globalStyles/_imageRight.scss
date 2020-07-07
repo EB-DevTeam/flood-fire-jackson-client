@@ -32,3 +32,8 @@
         padding: $thm-spacing-desktop-2 0;
     }
 }
+@media only screen and(max-width: 600px) {
+    .imageRight__div-colorBox{
+        width: 20vw;
+    }
+}

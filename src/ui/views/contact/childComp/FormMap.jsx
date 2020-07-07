@@ -84,7 +84,7 @@ export default function FormMap() {
 
           {/* <!-- TIME INPUT --> */}
           <label htmlFor="explain">What time of day is best to contact you?</label>
-          <input name="entry.1510609756_hour entry.1510609756_minute" type="time" /><br/>
+          <input name="entry.1510609756" type="time" /><br/>
 
 
           {/* <!-- SUBMIT BUTTON --> */}
