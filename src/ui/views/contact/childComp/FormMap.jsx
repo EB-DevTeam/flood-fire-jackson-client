@@ -1,79 +1,97 @@
-import React from "react";
+import React, {useState} from "react";
 // import Face from "../../../../images/socialMedia/iconFacebook.png";
 
+
 export default function FormMap() {
+  const [other, setOther] = useState("");
+  const otherChange = (event) => setOther(event.target.value);
+
   return (
     <section className="formMap__section">
       <div className="formMap__div-gridBoxOne">
         <h2>Quick Contact Form</h2>
+        <p>Call us at (307) 215-9741 for emergencies.</p>
+        <p className="formMap__required required">* Required</p>
 
-              {/* <form>
-                <p>
-                  Your Name*
-                  <br />
-                    <input
-                      type="text"
-                      name="your-name"
-                      value=""
-                      size="50"
-                      class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                      aria-required="true"
-                      aria-invalid="false"
-                    />
-                </p>
-                <p>
-                  Your Email*
-                  <br />
-                  <span class="wpcf7-form-control-wrap your-email">
-                    <input
-                      type="email"
-                      name="your-email"
-                      value=""
-                      size="50"
-                      class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-                      aria-required="true"
-                      aria-invalid="false"
-                    />
-                  </span>
-                </p>
-                <p>
-                  Subject
-                  <br />
-                  <span class="wpcf7-form-control-wrap your-subject">
-                    <input
-                      type="text"
-                      name="your-subject"
-                      value=""
-                      size="50"
-                      class="wpcf7-form-control wpcf7-text"
-                      aria-invalid="false"
-                    />
-                  </span>
-                </p>
-                <p>
-                  Your Message
-                  <br />
-                  <span class="wpcf7-form-control-wrap your-message">
-                    <textarea
-                      name="your-message"
-                      cols="50"
-                      rows="10"
-                      class="wpcf7-form-control wpcf7-textarea"
-                      aria-invalid="false"
-                    ></textarea>
-                  </span>
-                </p>
-                <p>
-                  <input
-                    type="submit"
-                    value="Send"
-                    class="wpcf7-form-control wpcf7-submit blue-to-grey__button"
-                  />
-                </p>
-                {/* <div class="wpcf7-response-output wpcf7-display-none"></div> 
-              </form> */}
-          
+        {/* <!-- START CODING YOUR FORM --> */}
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeKdp99-wBmxQJCdLLKsHRCpS3dAjh706XG-TGx1tTp8522Rw/formResponse">
+          {/* <!-- SINGLE LINE TEXT FIELD --> */}
+          <label htmlFor="name">
+            Full Name<span className="required"> *</span>
+          </label><br/>
+          <input name="entry.73448527" type="text" id="name" /><br/>
+
+          {/* <!-- SINGLE LINE TEXT FIELD --> */}
+          <label htmlFor="address">
+            Address<span className="required"> *</span>{" "}
+          </label><br/>
+          <input name="entry.122658944" type="text" id="address" /><br/>
+
+          {/* <!-- SINGLE LINE TEXT FIELD --> */}
+          <label htmlFor="phone">
+            Phone Number<span className="required"> *</span>
+          </label><br/>
+          <input name="entry.347738545" type="tel" id="phone" /><br/>
+
+          {/* <!-- SINGLE LINE TEXT FIELD --> */}
+          <label htmlFor="email">Email Address</label><br/>
+          <input name="entry.1655990480" type="email" id="email" /><br/>
+
+          {/* <!-- CHECKBOXES --> */}
+          <p>Damage Type <span className="required"> *</span></p>
+          <input type="hidden" name="entry.1898450243_sentinel"/>
+          <div className="input-wrap">
+            <input
+              type="checkbox"
+              name="entry.1898450243"
+              id="a1"
+              value="Water Damage (Flooding, Drip Damage, Leaks)"
+            />
+            <label htmlFor="a1">Water Damage (Flooding, Drip Damage, Leaks)</label>
+          </div>
+          <div className="input-wrap">
+            <input
+              type="checkbox"
+              name="entry.1898450243"
+              id="a2"
+              value="Mold Damage (Black Mold, Fungal Growth)"
+            />
+            <label htmlFor="a2">Mold Damage (Black Mold, Fungal Growth)</label>
+          </div>
+          <div className="input-wrap">
+            <input
+              type="checkbox"
+              name="entry.1898450243"
+              id="a3"
+              value="Fire Damage"
+            />
+            <label htmlFor="a3">Fire Damage</label>
+          </div>
+          <div className="input-wrap">
+            <input
+              type="checkbox"
+              name="entry.1898450243.other_option_response"
+              id="a4"
+              value={other}
+            />
+            <label htmlFor="a4">Other: </label>
+            <input className="other" type="text" value={other} onChange={otherChange} />
+          </div>
+
+          {/* <!-- MULTI-LINE TEXT FIELD --> */}
+          <label htmlFor="explain">Damage Description</label>
+          <textarea name="entry.1777164916" id="explain" />
+
+          {/* <!-- TIME INPUT --> */}
+          <label htmlFor="explain">What time of day is best to contact you?</label>
+          <input name="entry.1510609756_hour entry.1510609756_minute" type="time" /><br/>
+
+
+          {/* <!-- SUBMIT BUTTON --> */}
+          <input className="button red-to-grey__button" type="submit" value="Submit" />
+        </form>
       </div>
+
       <div className="formMap__div-gridBoxTwo">
         <div>
           <h2>Our Service Area</h2>

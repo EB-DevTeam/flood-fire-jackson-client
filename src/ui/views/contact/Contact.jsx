@@ -13,12 +13,11 @@ function Contact() {
   return (
     <div>
       <Helmet>
-        </Helmet>
-        <ContactBanner/>
-        <ContactUs/>
-        <FormMap/>
-
-
+        
+      </Helmet>
+      <ContactBanner />
+      <ContactUs />
+      <FormMap />
     </div>
   );
 }

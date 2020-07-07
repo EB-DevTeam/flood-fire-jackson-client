@@ -1,40 +1,45 @@
-.formMap__section{
+.formMap__section {
     display: grid;
     grid-template-columns: auto;
-    @include bp($thm-bp-sml){
-    grid-template-columns: auto auto;
-    width: 80%;
-    margin: 0 auto;
-    padding: $thm-spacing-desktop-3 0;
+
+    @include bp($thm-bp-sml) {
+        grid-template-columns: auto auto;
+        width: 80%;
+        margin: 0 auto;
+        padding: $thm-spacing-desktop-3 0;
     }
-    p{
-        line-height:1;
-        @include bp($thm-bp-sml){
-        line-height: .5;
+
+    p {
+        line-height: 1;
+
+        @include bp($thm-bp-sml) {
+            line-height: .5;
         }
     }
 }
-.formMap__p-email{
-        line-height: 1!important;
-        padding-bottom: $thm-spacing-desktop-2;
-        @include bp($thm-bp-sml){
-            padding: 0;
-            }
+
+.formMap__p-email {
+    line-height: 1 !important;
+    padding-bottom: $thm-spacing-desktop-2;
+
+    @include bp($thm-bp-sml) {
+        padding: 0;
+    }
 }
 
-.formMap__map{
+.formMap__map {
     width: 100%;
     height: 25vw;
 }
 
-.wpcf7-text{
+.wpcf7-text {
     margin: 15px 0px 0px;
     width: 100%;
     border: none;
     padding: 5px;
 }
 
-.wpcf7-textarea{
+.wpcf7-textarea {
     margin: 15px 0px 0px;
     height: 326px;
     width: 100%;
@@ -43,8 +48,80 @@
     resize: none;
 }
 
+
 @media only screen and(max-width: 600px) {
-    .formMap__section{
+    .formMap__section {
         padding: $thm-spacing-desktop-2 0;
-        }
+    }
+}
+
+/* FORM STYLES */
+.required {
+    color: $thm-light-red;
+}
+
+.formMap__required {
+    font-size: small;
+}
+
+.input-wrap {
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+label[for="explain"] {
+    display: block;
+    margin-bottom: 20px;
+}
+
+label[for="damageType"] {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 80%;
+    padding: 6px;
+    font-size: 16px;
+    border: 1px solid $thm-grey;
+    background: $thm-off-white;
+    margin-bottom: 25px;
+
+}
+
+.other {
+    width: 68% !important;
+    border: none !important;
+    border-bottom: 1px solid #F3F3F3 !important;
+    background: transparent !important;
+    color: $thm-off-white;
+
+    &:focus {
+        background: $thm-off-white !important;
+        color: $thm-charcoal;
+    }
+
+}
+
+input[type="time"] {
+    width: 50%;
+    font-size: 16px;
+    border: 1px solid $thm-grey;
+    background: $thm-off-white;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+    height: 34px;
+    padding: 0 10px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: none;
 }
