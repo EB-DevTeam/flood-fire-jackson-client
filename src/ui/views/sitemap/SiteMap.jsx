@@ -18,7 +18,7 @@ function SiteMap({location}) {
             <section className="sitemap__section">
                 <div className="sitemap__div">
                 <h1 className="sitemap__h1">Flood &amp; Fire Solutions Jackson </h1>
-                 <div className="sitemap__div-container">
+                <div className="sitemap__div-container">
                 
                 <Link className="sitemap__link--parent" to="/">Home</Link>
                 
