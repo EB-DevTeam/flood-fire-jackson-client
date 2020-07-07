@@ -4,7 +4,7 @@ import React, {useState} from "react";
 
 export default function FormMap() {
   const [other, setOther] = useState("");
-  const otherChange = (event) => setOther(event.target.value);
+  const otherChange = (event) => {setOther(event.target.value);console.log(other)};
 
   return (
     <section className="formMap__section">
@@ -14,7 +14,7 @@ export default function FormMap() {
         <p className="formMap__required required">* Required</p>
 
         {/* <!-- START CODING YOUR FORM --> */}
-        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeKdp99-wBmxQJCdLLKsHRCpS3dAjh706XG-TGx1tTp8522Rw/formResponse">
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeKdp99-wBmxQJCdLLKsHRCpS3dAjh706XG-TGx1tTp8522Rw/formResponse" target="_blank">
           {/* <!-- SINGLE LINE TEXT FIELD --> */}
           <label htmlFor="name">
             Full Name<span className="required"> *</span>
@@ -37,12 +37,31 @@ export default function FormMap() {
           <label htmlFor="email">Email Address</label><br/>
           <input name="entry.1655990480" type="email" id="email" /><br/>
 
-          {/* <!-- CHECKBOXES --> */}
-          <p>Damage Type <span className="required"> *</span></p>
-          <input type="hidden" name="entry.1898450243_sentinel"/>
+          {/* <!-- MUTLIPLE CHOICE --> */}
+          <label htmlFor="damageType">Damage Type <span className="required"> *</span></label>
+      <div class="input-wrap"><input type="radio" name="entry.1898450243" id="e1" value="Water"/>
+      <label for="e1">Water</label></div>
+      <div class="input-wrap"><input type="radio" name="entry.1898450243" id="e2" value="Fire"/>
+      <label for="e2">Fire</label></div>
+      <div class="input-wrap"><input type="radio" name="entry.1898450243" id="e3" value="Mold"/>
+      <label for="e3">Mold</label></div>
+      <div className="input-wrap">
+            <input
+              type="radio"
+              name="entry.1898450243"
+              id="a4"
+              value={other}
+            />
+            <label htmlFor="a4">Other: </label>
+            <input className="other" name="entry.1898450243.other_option_response" type="text" value={other} onChange={otherChange} />
+          </div>
+
+
+          {/* <!-- CHECKBOXES -->
+          <label htmlFor="damageType">Damage Type <span className="required"> *</span></label>
           <div className="input-wrap">
             <input
-              type="checkbox"
+              type="radio"
               name="entry.1898450243"
               id="a1"
               value="Water Damage (Flooding, Drip Damage, Leaks)"
@@ -77,6 +96,7 @@ export default function FormMap() {
             <label htmlFor="a4">Other: </label>
             <input className="other" type="text" value={other} onChange={otherChange} />
           </div>
+           */}
 
           {/* <!-- MULTI-LINE TEXT FIELD --> */}
           <label htmlFor="explain">Damage Description</label>
@@ -88,7 +108,7 @@ export default function FormMap() {
 
 
           {/* <!-- SUBMIT BUTTON --> */}
-          <input className="button red-to-grey__button" type="submit" value="Submit" />
+          <input className="button red-to-grey__button" type="submit" value="Submit" target="_blank"/>
         </form>
       </div>
 

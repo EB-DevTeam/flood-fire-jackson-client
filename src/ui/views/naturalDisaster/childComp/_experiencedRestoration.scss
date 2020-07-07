@@ -6,8 +6,14 @@
     padding: $thm-spacing-desktop-3 0;
 }
 
+.experiencedRestoration__div-text{
+    padding: $thm-spacing-desktop-3 0;
+}
 @media only screen and(max-width: 600px) {
     .experiencedRestoration_gridBox, .experiencedRestoration_section{
         padding: $thm-spacing-desktop-2 0;
+    }
+    .experiencedRestoration__div-text{
+        padding: 0;
     }
 }
