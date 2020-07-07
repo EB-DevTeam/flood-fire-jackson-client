@@ -19,12 +19,12 @@ function Fire() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
           {" "}
-          Fire Damage Restoration - Servicing Jackson Hole | Flood & Fire
+          Fire Damage Restoration - Servicing Jackson Hole | Flood &amp; Fire
           Solutions{" "}
         </title>
         <meta
           name="description"
-          content=" Flood & Fire Solutions Jackson provides fire & smoke damage restoration and cleanup for luxury cabins in Jackson Hole  and surrounding areas."
+          content=" Flood & Fire Solutions Jackson provides fire &amp; smoke damage restoration and cleanup for luxury cabins in Jackson Hole  and surrounding areas."
         />
         <meta
           name="keywords"

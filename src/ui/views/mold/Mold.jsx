@@ -22,12 +22,12 @@ function Mold() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
           {" "}
-          Mold Inspection & Removal - Servicing Jackson Hole | Flood & Fire
+          Mold Inspection &amp; Removal - Servicing Jackson Hole | Flood &amp; Fire
           Solutions{" "}
         </title>
         <meta
           name="description"
-          content=" Flood & Fire Solutions Jackson inspects and removes mold. We restore & cleanup mold damage for luxury homes in Jackson Hole and surrounding areas.
+          content=" Flood &amp; Fire Solutions Jackson inspects and removes mold. We restore &amp; cleanup mold damage for luxury homes in Jackson Hole and surrounding areas.
 "
         />
         <meta

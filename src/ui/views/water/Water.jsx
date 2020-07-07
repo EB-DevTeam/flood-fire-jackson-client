@@ -21,12 +21,12 @@ function Water() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
           {" "}
-          Water Damage Restoration - Servicing Jackson Hole | Flood & Fire
+          Water Damage Restoration - Servicing Jackson Hole | Flood &amp; Fire
           Solutions{" "}
         </title>
         <meta
           name="description"
-          content=" Flood & Fire Solutions Jackson provides water damage restoration for luxury homes in Jackson Hole and surrounding areas 24/7.
+          content=" Flood &amp; Fire Solutions Jackson provides water damage restoration for luxury homes in Jackson Hole and surrounding areas 24/7.
 "/>
         <meta
           name="keywords"
