@@ -40,11 +40,11 @@ export default function FormMap() {
           {/* <!-- MUTLIPLE CHOICE --> */}
           <label htmlFor="damageType">Damage Type <span className="required"> *</span></label>
       <div class="input-wrap"><input type="radio" name="entry.1898450243" id="e1" value="Water"/>
-      <label for="e1">Water</label></div>
+      <label htmlFor="e1">Water</label></div>
       <div class="input-wrap"><input type="radio" name="entry.1898450243" id="e2" value="Fire"/>
-      <label for="e2">Fire</label></div>
+      <label htmlFor="e2">Fire</label></div>
       <div class="input-wrap"><input type="radio" name="entry.1898450243" id="e3" value="Mold"/>
-      <label for="e3">Mold</label></div>
+      <label htmlFor="e3">Mold</label></div>
       <div className="input-wrap">
             <input
               type="radio"
