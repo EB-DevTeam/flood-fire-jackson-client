@@ -42,7 +42,7 @@ export default function DisasterServices() {
 
       <div>
         <p>
-          Minimize disruption to your home or office. Let Flood & Fire Solutions
+          Minimize disruption to your home or office. Let Flood &amp; Fire Solutions
           help you recover from fire damage. Contact us today at (307) 215-9741
           to learn more.
         </p>

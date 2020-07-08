@@ -9,7 +9,7 @@ export default function DestroyMold() {
             <h2 className="backgroundImage__h2">Destroy Mold</h2>
             <p> We don’t just kill mold; we completely destroy it. </p>
             <p className="buttonPadding">
-            Flood & Fire Solutions can help protect your health and the safety of your structure through our mold mildew and remediation services.
+            Flood &amp; Fire Solutions can help protect your health and the safety of your structure through our mold mildew and remediation services.
 
             </p>
             <a href="tel:3072159741" className="blue-to-grey__button">

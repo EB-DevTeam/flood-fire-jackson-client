@@ -24,7 +24,7 @@ function Fire() {
         </title>
         <meta
           name="description"
-          content=" Flood & Fire Solutions Jackson provides fire &amp; smoke damage restoration and cleanup for luxury cabins in Jackson Hole  and surrounding areas."
+          content=" Flood &amp; Fire Solutions Jackson provides fire &amp; smoke damage restoration and cleanup for luxury cabins in Jackson Hole  and surrounding areas."
         />
         <meta
           name="keywords"

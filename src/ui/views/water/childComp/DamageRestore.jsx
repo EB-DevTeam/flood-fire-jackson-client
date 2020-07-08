@@ -6,7 +6,7 @@ export default function DamageRestore() {
       <div className="imageLeftFlush__div-gridBox damageRestore_gridBox">
         <div className="imageLeftFlush__div-img damageRestore_img"></div>
         <div className="imageLeftFlush__div-boxTwo">
-          <h2>Water Damage & Restoration</h2>
+          <h2>Water Damage &amp; Restoration</h2>
           <div className="imageLeftFlush__div-colorBox"></div>
           <p>
           Call your local water damage restoration company in Jackson Hole if you have any questions or need immediate cleanup and restoration. Our highly trained and certified staff is ready to help you 24/7.

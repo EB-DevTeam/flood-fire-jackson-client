@@ -39,7 +39,14 @@ export default function Restoration() {
           </a>
         </div>
         <p className="restoration__p buttonPadding">
-        If you are in need of emergency restoration in Jackson Hole, WY give Flood & Fire Solutions a call! We’re standing by 24/7 ready to help you & we guarantee the fastest response in the area. If you wake up at 3 a.m. in a panic because there has been a flood, fire or other disaster at your residence you can call us with confidence knowing you will get the prompt & professional service you deserve. If you are not in an emergency but need same day service, we have your back!
+          If you are in need of emergency restoration in Jackson Hole, WY give
+          Flood &amp; Fire Solutions a call! We’re standing by 24/7 ready to
+          help you &amp; we guarantee the fastest response in the area. If you
+          wake up at 3 a.m. in a panic because there has been a flood, fire or
+          other disaster at your residence you can call us with confidence
+          knowing you will get the prompt &amp; professional service you
+          deserve. If you are not in an emergency but need same day service, we
+          have your back!
         </p>
         <a className="red-to-grey__button" href="tel:3072159741">
           {" "}

@@ -43,7 +43,6 @@ export default function FireTwoImg() {
               Ozoning <br />
             </li><span className="dot twoImg__dot"></span>
             <li className="buttonSpace">
-              
               Deodorization services <br />
             </li>
             </ul>

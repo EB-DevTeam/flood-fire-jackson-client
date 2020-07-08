@@ -12,7 +12,7 @@ export default function FireRepair() {
           Are you in need of fire damage repair in Jackson Hole, Wyoming?
           </p>
           <p className="buttonPadding">
-          A fire of any size is a destructive force and can cause serious damage. Flood & Fire Solutions will work hand and hand with you and your insurance provider to restore your property as quickly as possible. From intense fires that cause complete structural loss to a small fire that causes light smoke damage, Flood & Fire Solutions  fire damage repair professionals will help you repair your property.
+          A fire of any size is a destructive force and can cause serious damage. Flood &amp; Fire Solutions will work hand and hand with you and your insurance provider to restore your property as quickly as possible. From intense fires that cause complete structural loss to a small fire that causes light smoke damage, Flood &amp; Fire Solutions  fire damage repair professionals will help you repair your property.
           </p>
           <a className="blue-to-grey__button" href="tel:3072159741">(307) 215-9741</a>
         </div>
