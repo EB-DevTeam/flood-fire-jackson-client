@@ -29,6 +29,7 @@ function NaturalDisaster() {
           name="keywords"
           content="Smoke, Odor Removal, Fire Damage, Fire Cleanup, Restoration Company, Jackson Hole, Wyoming"
         />
+        <link rel="canonical" href="https://floodandfirejackson.com/natural-disaster" />
       </Helmet>
 
       <NaturalBanner />

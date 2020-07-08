@@ -20,9 +20,8 @@ function Water() {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
-          {" "}
           Water Damage Restoration - Servicing Jackson Hole | Flood &amp; Fire
-          Solutions{" "}
+          Solutions
         </title>
         <meta
           name="description"
@@ -32,6 +31,7 @@ function Water() {
           name="keywords"
           content="Water Damage, Water Cleanup, Restoration Company, Pipe Leaks, Flood Restoration, Jackson Hole"
         />
+        <link rel="canonical" href="https://floodandfirejackson.com/water" />
       </Helmet>
 
       <WaterBanner />

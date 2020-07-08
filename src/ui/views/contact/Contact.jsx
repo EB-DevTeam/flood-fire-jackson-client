@@ -18,6 +18,7 @@ function Contact() {
         <title>
           Contact Us - Servicing Jackson Hole | Flood &amp; Fire Solutions
         </title>
+        <link rel="canonical" href="https://floodandfirejackson.com/contact" />
         <meta
           name="description"
           content="Contact Flood &amp; Fire Solutions Jackson today for your restoration needs. We are available 24/7."

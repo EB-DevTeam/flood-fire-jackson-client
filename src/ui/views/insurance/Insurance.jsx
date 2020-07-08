@@ -25,6 +25,7 @@ function Insurance() {
           name="keywords"
           content="Restoration Company, Insurance Claim, Home Damage, Jackson Hole, Insurance Company, Restoration Insurance"
         />
+                <link rel="canonical" href="https://floodandfirejackson.com/insurance" />
       </Helmet>
       <InsuranceBanner />
       <InsuranceClaim />

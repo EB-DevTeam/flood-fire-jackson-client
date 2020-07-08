@@ -40,22 +40,13 @@
     padding: 0 2rem;
 }
 
-.nav__sub-item {
-    padding: $thm-spacing-mobile-1;
-    font-size: $thm-font-med;
-
-    @include bp($thm-bp-sml) {
-        padding: $thm-spacing-mobile-1;
-        font-size: $thm-font-med;
-    }
-}
-
 
 .nav__item {
     display: block;
     position: relative;
     margin-left: 1em;
     cursor: pointer;
+    padding: .75em 0;
 
     &:active {
         color: $thm-white;

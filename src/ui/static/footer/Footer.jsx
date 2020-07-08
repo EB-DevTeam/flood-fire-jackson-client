@@ -21,8 +21,8 @@ export default function Footer() {
             <p className="footer__p">
               <span className="footer__span-header">Company</span>
               <br />
-              970 W Broadway #363<br></br>
-              Jackson, WY 83001<br></br>
+              #18 McCoy Creek Rd<br></br>
+              Alpine Wy 83128<br></br>
               (307) 215-9741
             </p>
           </div>
