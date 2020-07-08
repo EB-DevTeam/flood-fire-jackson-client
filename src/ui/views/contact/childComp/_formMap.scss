@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: auto;
 
-    @include bp($thm-bp-sml) {
+    @include bp($thm-bp-med) {
         grid-template-columns: auto auto;
         width: 80%;
         margin: 0 auto;

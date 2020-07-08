@@ -5,6 +5,7 @@ import "./App.scss";
 
 import Header from "./ui/static/header/Header"
 import Footer from "./ui/static/footer/Footer";
+import ContactUsButton from './ui/static/contactUsButton/ContactUsButton';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Header />
         <Routes />
         <Footer />
+        <ContactUsButton />
       </BrowserRouter>
     </>
   );
