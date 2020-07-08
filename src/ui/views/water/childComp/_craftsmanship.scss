@@ -1,5 +1,9 @@
 .craftsmanship__div-img{
     background-image: url(../../../../images/water/waterCraft.jpg);
+    @include bp($thm-bp-sml){
+        background-position: 100% 60%;
+    }
+    
 }
 .craftsmanship__div-color{
     background-color: $thm-charcoal;
