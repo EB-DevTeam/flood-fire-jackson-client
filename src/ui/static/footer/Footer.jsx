@@ -49,13 +49,14 @@ export default function Footer() {
         <div className="footer__div-call">
           <p className="footer__p">
             <span className="footer__span-callHeader">Give us a call</span>
+            <div className="padding">
             <a
               href="tel:3072159741"
               className="footer__button red-to-grey__button"
             >
               (307) 215-9741
             </a>
-            <br/>
+            </div>
           </p>
         </div>
       </div>
