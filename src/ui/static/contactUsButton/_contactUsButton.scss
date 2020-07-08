@@ -13,40 +13,25 @@
     font-size: $thm-font-lrg;
     height: $thm-font-lrg;
     width: $thm-font-lrg;
-
-}
-.file{
-    @include flex(column, nowrap, center, center);
 }
 
-.call-button {
-    // background-color: #d32121;
-    background-color: $thm-burg;
-    border-radius: 50px;
-    &__icon {
-        color: $thm-off-white;
-    }
-}
+// .call-button {
+//     // background-color: #d32121;
+//     background-color: $thm-light-red;
+//     border-radius: 50px;
+//     &__icon {
+//         color: $thm-off-white;
+//     }
+// }
 
 .box-shadow {
     box-shadow: $thm-bs-2;
 }
 
-.contact-us-button-form {
-    display: none;
-    color: $thm-burg;
-    background-color: $thm-off-white;
-    padding: .75em;
-    border-radius: 50px;
-
-    @include bp($thm-bp-sml){
-        display: flex;}
-}
-
 .contact-us-button-phone{
     display: block;
-    color: $thm-burg;
-    background-color: $thm-off-white;
+    color: $thm-off-white;
+    background-color: $thm-light-red;
     padding: .75em;
     border-radius: 50px;
     @include bp($thm-bp-sml){
@@ -54,15 +39,6 @@
     }
 }
 
-
-// .contact-us-button__open {
-//     animation: swing-open 200ms ease;
-// }
-
-// .contact-us-button__closed {
-//     animation: swing-closed 200ms ease;
-//     visibility: hidden;
-// }
 
 @keyframes swing-open {
     0% {
