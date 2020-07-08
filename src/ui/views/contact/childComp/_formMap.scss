@@ -26,7 +26,11 @@
         padding: 0;
     }
 }
-
+.formMap__div-socialIcon img {
+    width: 7vh;
+    padding: $thm-spacing-mobile-1;
+    padding-top: $thm-spacing-mobile-2;
+}
 .formMap__map {
     width: 100%;
     height: 25vw;

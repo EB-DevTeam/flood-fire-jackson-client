@@ -7,6 +7,13 @@ import Header from "./ui/static/header/Header"
 import Footer from "./ui/static/footer/Footer";
 import ContactUsButton from './ui/static/contactUsButton/ContactUsButton';
 
+import ReactGA from 'react-ga';
+
+//Google Anylitics 
+
+ReactGA.initialize('UA-75452441-3');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 function App() {
   return (
     <>
