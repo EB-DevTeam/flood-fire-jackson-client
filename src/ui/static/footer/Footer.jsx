@@ -55,6 +55,7 @@ export default function Footer() {
             >
               (307) 215-9741
             </a>
+            <br/>
           </p>
         </div>
       </div>
