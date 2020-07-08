@@ -1,5 +1,7 @@
 import React, {useState} from "react";
-// import Face from "../../../../images/socialMedia/iconFacebook.png";
+import Face from "../../../../images/socialIcons/social-112.png";
+import Insta from "../../../../images/socialIcons/social-111.png";
+import You from "../../../../images/socialIcons/social-114.png";
 
 
 export default function FormMap() {
@@ -134,6 +136,20 @@ export default function FormMap() {
           </p>
           <p className="formMap__p-email">
             <b>Email: </b> admin@floodandfiresolutions.com
+          </p>
+          <p>
+            <b>Social Media:</b>
+            <div className="formMap__div-socialIcon">
+              <a href="https://www.facebook.com/ffsjackson/" target="_blank">
+              <img src={Face} alt="Fackbook"/>
+              </a>
+              <a href="https://www.instagram.com/floodandfire_solutions/" target="_blank">
+              <img src={Insta} alt="Instagram"/>
+              </a>
+              <a href="https://www.youtube.com/channel/UC_2cfZt74DL6DHXliGbdBzQ" target="_blank">
+              <img src={You} alt="Youtube"/>
+              </a>
+            </div>
           </p>
         </div>
       </div>

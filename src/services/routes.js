@@ -16,8 +16,8 @@ import Contact from '../ui/views/contact/Contact';
 
 //Footer View
 import TermsOfUse from "../ui/views/terms/TermsOfUse";
-// import SiteMap from '../ui/views/sitemap/SiteMap';
-import XML from '../ui/views/sitemap/sitemap.xml';
+import SiteMap from '../ui/views/sitemap/SiteMap';
+// import XML from '../ui/views/sitemap/sitemap.xml';
 import PrivacyPolicy from "../ui/views/privacyPolicy/PrivacyPolicy";
 import NotFound from '../ui/views/notFound/NotFound';
 
@@ -39,6 +39,7 @@ function Routes() {
 
                      
             <Route path="/terms-of-use" component={TermsOfUse} />
+            <Route path="/sitemap" component={SiteMap} />
             {/* <Route component={XML} path={'localhost:3000/sitemap.xml'} /> */}
             <Route path="/privacy-policy" component={PrivacyPolicy} />          
 
