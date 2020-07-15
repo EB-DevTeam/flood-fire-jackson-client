@@ -25,7 +25,7 @@ function Home() {
         </title>
         <meta
           name="keywords"
-          content="Cabin Repair, Jackson, Jackson Hole, Alpine, Water Damage, Restoration, Water, Repair, Water Cleanupt"
+          content="Cabin Repair, Jackson, Jackson Hole, Alpine, Water Damage, Restoration, Water, Repair, Water Cleanup"
         />
         <meta
           name="description"
