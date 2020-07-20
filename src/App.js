@@ -2,27 +2,35 @@ import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import Routes from "./services/routes";
 import "./App.scss";
-// import TagManager from 'react-gtm-module';
-import { createBrowserHistory } from 'history';
 
 
 import Header from "./ui/static/header/Header"
 import Footer from "./ui/static/footer/Footer";
 import ContactUsButton from './ui/static/contactUsButton/ContactUsButton';
 
+
 import ReactGA from 'react-ga';
+// import TagManager from 'react-gtm-module';
+// import { createBrowserHistory } from 'history';
+
 
 //Google Anylitics 
 ReactGA.initialize('UA-75452441-3');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
-const history = createBrowserHistory();
+ReactGA.event({
+  category: 'User',
+  action: 'Sent message'
+});
 
-history.listen((location) => {
-  ReactGA.set({ page: location.pathname });
-  ReactGA.pageview(location.pathname)
-}
-);
+
+// const history = createBrowserHistory();
+
+// history.listen((location) => {
+//   ReactGA.set({ page: location.pathname });
+//   ReactGA.pageview(location.pathname)
+// }
+// );
 
 
 //Tag Manager
@@ -31,6 +39,8 @@ history.listen((location) => {
 // }
 
 // TagManager.initialize(tagManagerArgs)
+
+
 
 function App() {
 
