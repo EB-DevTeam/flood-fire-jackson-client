@@ -23,28 +23,30 @@ import NotFound from '../ui/views/notFound/NotFound';
 
 
 function Routes() {
-  
+  function refreshPage() {
+    window.location.reload(false);
+  }
   return (
     
           <Switch>
-            <Route exact={true} path="/" component={Home} /> 
+            <Route exact={true} path="/" component={Home} onChange={refreshPage}/> 
 
 
-            <Route path="/fire" component={Fire} />
-            <Route path="/water" component={Water} />
-            <Route path="/mold" component={Mold} />
-            <Route path="/natural-disaster" component={NaturalDisaster} />
-            <Route path="/insurance" component={Insurance} />
-            <Route path="/contact" component={Contact} />
+            <Route path="/fire" component={Fire} onChange={refreshPage}/>
+            <Route path="/water" component={Water} onChange={refreshPage}/>
+            <Route path="/mold" component={Mold} onChange={refreshPage}/>
+            <Route path="/natural-disaster" component={NaturalDisaster} onChange={refreshPage}/>
+            <Route path="/insurance" component={Insurance} onChange={refreshPage}/>
+            <Route path="/contact" component={Contact} onChange={refreshPage}/>
 
                      
-            <Route path="/terms-of-use" component={TermsOfUse} />
-            <Route path="/sitemap" component={SiteMap} />
+            <Route path="/terms-of-use" component={TermsOfUse} onChange={refreshPage}/>
+            <Route path="/sitemap" component={SiteMap} onChange={refreshPage}/>
             {/* <Route component={XML} path={'localhost:3000/sitemap.xml'} /> */}
-            <Route path="/privacy-policy" component={PrivacyPolicy} />          
+            <Route path="/privacy-policy" component={PrivacyPolicy} onChange={refreshPage}/>          
 
                    
-            <Route component={NotFound} />       
+            <Route component={NotFound} onChange={refreshPage}/>       
           </Switch>          
   );
 }
