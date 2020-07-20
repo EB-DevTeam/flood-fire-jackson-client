@@ -110,7 +110,7 @@ export default function FormMap() {
 
 
           {/* <!-- SUBMIT BUTTON --> */}
-          <input className="button red-to-grey__button" type="submit" value="Submit" target="_blank"/>
+          <input className="button red-to-grey__button" type="submit" value="Submit" target="_blank" rel="noopener noreferrer"/>
         </form>
       </div>
 
@@ -140,13 +140,13 @@ export default function FormMap() {
           <p>
             <b>Social Media:</b>
             <div className="formMap__div-socialIcon">
-              <a href="https://www.facebook.com/ffsjackson/" target="_blank">
+              <a href="https://www.facebook.com/ffsjackson/" target="_blank" rel="noopener noreferrer">
               <img src={Face} alt="Fackbook"/>
               </a>
-              <a href="https://www.instagram.com/floodandfire_solutions/" target="_blank">
+              <a href="https://www.instagram.com/floodandfire_solutions/" target="_blank" rel="noopener noreferrer">
               <img src={Insta} alt="Instagram"/>
               </a>
-              <a href="https://www.youtube.com/channel/UC_2cfZt74DL6DHXliGbdBzQ" target="_blank">
+              <a href="https://www.youtube.com/channel/UC_2cfZt74DL6DHXliGbdBzQ" target="_blank" rel="noopener noreferrer">
               <img src={You} alt="Youtube"/>
               </a>
             </div>
