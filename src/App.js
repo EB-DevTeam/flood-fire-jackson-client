@@ -43,12 +43,12 @@ ReactGA.event({
 
 
 function App() {
-
+  
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter forceRefresh>
         <Header />
-        <Routes />
+        <Routes  />
         <Footer />
         <ContactUsButton />
       </BrowserRouter>   
