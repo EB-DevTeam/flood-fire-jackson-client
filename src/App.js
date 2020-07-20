@@ -1,5 +1,5 @@
 import React from "react";
-import { Router } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Routes from "./services/routes";
 import "./App.scss";
 // import TagManager from 'react-gtm-module';
@@ -14,7 +14,7 @@ import ReactGA from 'react-ga';
 
 //Google Anylitics 
 ReactGA.initialize('UA-75452441-3');
-// ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const history = createBrowserHistory();
 
@@ -24,8 +24,6 @@ history.listen((location) => {
 }
 );
 
-export const StateContext = React.createContext(undefined);
-export const AppContext = React.createContext(undefined);
 
 //Tag Manager
 // const tagManagerArgs = {
@@ -38,14 +36,12 @@ function App() {
 
   return (
     <>
-      {/* <AppContext.Provider value={{ ...appState, dispatch }}> */}
-      <Router history={history}>
+      <BrowserRouter>
         <Header />
         <Routes />
         <Footer />
         <ContactUsButton />
-      </Router>   
-      {/* </AppContext.Provider>    */}
+      </BrowserRouter>   
     </>
   );
 }
