@@ -13,7 +13,11 @@ export default function MinimizeMold() {
               <div>
                 <h3 className="effects__h3">Act Fast</h3>
                 <p className="effects__p">
-                It is very important that you don’t wait to call a mold removal and restoration company because mold, in the right environment, can grow quickly and turn a small problem into a big (and expensive) issue.                </p>
+                  It is very important that you don’t wait to call a mold
+                  removal and restoration company because mold, in the right
+                  environment, can grow quickly and turn a small problem into a
+                  big (and expensive) issue.{" "}
+                </p>
               </div>
               <div className="effects__div-imgCont">
                 <div className="effects__div-rightImg minimizeMold__img1"></div>
@@ -21,7 +25,7 @@ export default function MinimizeMold() {
             </div>
           </div>
 
-          <div className="effects__div-gridBoxOne">
+          {/* <div className="effects__div-gridBoxOne">
             <div className="effects__div-imgCont">
               <div className="effects__div-leftImg minimizeMold__img2"></div>
             </div>
@@ -35,7 +39,7 @@ export default function MinimizeMold() {
                 (307) 215-9741
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

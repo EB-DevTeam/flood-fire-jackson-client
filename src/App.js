@@ -3,26 +3,22 @@ import { BrowserRouter } from "react-router-dom";
 import Routes from "./services/routes";
 import "./App.scss";
 
-
-import Header from "./ui/static/header/Header"
+import Header from "./ui/static/header/Header";
 import Footer from "./ui/static/footer/Footer";
-import ContactUsButton from './ui/static/contactUsButton/ContactUsButton';
+import ContactUsButton from "./ui/static/contactUsButton/ContactUsButton";
 
+// import ReactGA from 'react-ga';
+// // import TagManager from 'react-gtm-module';
+// // import { createBrowserHistory } from 'history';
 
-import ReactGA from 'react-ga';
-// import TagManager from 'react-gtm-module';
-// import { createBrowserHistory } from 'history';
+// //Google Anylitics
+// ReactGA.initialize('UA-75452441-3');
+// ReactGA.pageview(window.location.pathname + window.location.search);
 
-
-//Google Anylitics 
-ReactGA.initialize('UA-75452441-3');
-ReactGA.pageview(window.location.pathname + window.location.search);
-
-ReactGA.event({
-  category: 'User',
-  action: 'Sent message'
-});
-
+// ReactGA.event({
+//   category: 'User',
+//   action: 'Sent message'
+// });
 
 // const history = createBrowserHistory();
 
@@ -32,7 +28,6 @@ ReactGA.event({
 // }
 // );
 
-
 //Tag Manager
 // const tagManagerArgs = {
 //     gtmId: 'GTM-MT8C2TJ'
@@ -40,18 +35,15 @@ ReactGA.event({
 
 // TagManager.initialize(tagManagerArgs)
 
-
-
 function App() {
-  
   return (
     <>
       <BrowserRouter forceRefresh>
         <Header />
-        <Routes  />
+        <Routes />
         <Footer />
         <ContactUsButton />
-      </BrowserRouter>   
+      </BrowserRouter>
     </>
   );
 }
