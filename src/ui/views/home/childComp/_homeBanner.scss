@@ -1,9 +1,15 @@
-.homeBanner__section{
-    background-image: url(../../../../images/home/homeBanner.jpg);
+.homeBanner__section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(../../../../images/home/homeBanner.jpg);
+  background-size: cover;
 }
-
+.bigger.blue-to-grey__button {
+  font-size: $thm-font-lrg;
+  transition: all 200ms ease;
+  border-radius: 4px;
+}
 @media only screen and(max-width: 600px) {
-    .homeBanner__section{
-        background-position: 60% center;
-    }
+  .homeBanner__section {
+    background-position: 60% center;
+  }
 }

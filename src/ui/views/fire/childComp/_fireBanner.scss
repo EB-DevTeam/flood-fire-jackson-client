@@ -1,3 +1,5 @@
-.fireBanner__section{
-    background-image: url(../../../../images/fire/fireBanner.jpg);
+.fireBanner__section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../../../images/fire/fireBanner.jpg);
+  background-size: cover;
 }

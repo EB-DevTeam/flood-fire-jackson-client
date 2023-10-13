@@ -5,7 +5,7 @@
 
 // 1. Colors
 $thm-white: #fff;
-$thm-off-white: #F3F3F3;
+$thm-off-white: #f3f3f3;
 $thm-charcoal: #212121;
 $thm-grey: #3e3d3d;
 $thm-light-grey: #bebebe;
@@ -14,44 +14,48 @@ $thm-light-blue: #6b85ac;
 
 $thm-burg: orange;
 // 2. Fonts
-$thm-font-primary: 'Open Sans', sans-serif; 
-$thm-font-header: 'Cabin Condensed', sans-serif;
+$thm-font-primary: "Open Sans", sans-serif;
+$thm-font-header: "Cabin Condensed", sans-serif;
 
 // Font Size
-$thm-font-tiny: 12px;
-$thm-font-sml: 14px;
-$thm-font-med: 16px;
-$thm-font-medlrg: 18px;
-$thm-font-lrg: 24px;
-$thm-font-xlrg: 28px;
-$thm-font-ult: 32px;
-$thm-font-xult: 40px;
-$thm-font-xxult: 70px;
+$thm-font-tiny: 14px;
+$thm-font-sml: 16px;
+$thm-font-med: 18px;
+$thm-font-medlrg: 20px;
+$thm-font-lrg: 26px;
+$thm-font-xlrg: 30px;
+$thm-font-ult: 34px;
+$thm-font-xult: 42px;
+$thm-font-xxult: 72px;
 
 // Default Font-Heading
-h1{font-size: $thm-font-xxult;}
-h2{font-size: $thm-font-xult;}
-h3{font-size: $thm-font-lrg;}
-h4{font-size: $thm-font-medlrg}
+h1 {
+  font-size: $thm-font-xxult;
+}
+h2 {
+  font-size: $thm-font-xult;
+}
+h3 {
+  font-size: $thm-font-lrg;
+}
+h4 {
+  font-size: $thm-font-medlrg;
+}
 
-
-// Font Weight 
+// Font Weight
 $thm-fw-1: 100;
 $thm-fw-2: 300;
 $thm-fw-3: 400;
 $thm-fw-4: 700;
 
-
-
-
 // 3. Spacing (padding/margins)
 
 //Mobile
-$thm-spacing-mobile-1: .25em;
+$thm-spacing-mobile-1: 0.25em;
 $thm-spacing-mobile-2: 1em;
 $thm-spacing-mobile-3: 2em;
 
-$thm-spacingNeg-mobile-1: -.25em;
+$thm-spacingNeg-mobile-1: -0.25em;
 $thm-spacingNeg-mobile-2: -1em;
 $thm-spacingNeg-mobile-3: -2em;
 
@@ -67,34 +71,34 @@ $thm-spacingNeg-desktop-3: -4em; //108px
 $thm-spacingNeg-desktop-4: -7em; //108px
 
 //Section Spacing
-section{
-    width: 100%;
-    // padding-bottom: $thm-spacing-desktop-4;
-    // padding: $thm-spacing-desktop-2 0 $thm-spacing-desktop-2 0;
+section {
+  width: 100%;
+  // padding-bottom: $thm-spacing-desktop-4;
+  // padding: $thm-spacing-desktop-2 0 $thm-spacing-desktop-2 0;
 }
 
-section>div{
-    width: 80%;
-    margin: 0 auto;
+section > div {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.buttonPadding{
-    padding-bottom: $thm-spacing-desktop-1;
+.buttonPadding {
+  padding-bottom: $thm-spacing-desktop-1;
 }
 .buttonSpace {
-    margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
-.dot{
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 10px;
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
 
 // 4. Z-index
@@ -129,16 +133,16 @@ $thm-bp-ult: 1440px;
 
 // breakpoint map
 $thm-break-points: (
-	"tiny": $thm-bp-tiny,
-    "sml": $thm-bp-sml, 
-    "smlmed": $thm-bp-smlmed,
-    "med": $thm-bp-med, 
-    "medlrg": $thm-bp-medlrg,
-	"lrg": $thm-bp-lrg, 
-	"xlrg": $thm-bp-xlrg,
-	"ult": $thm-bp-ult,
+  "tiny": $thm-bp-tiny,
+  "sml": $thm-bp-sml,
+  "smlmed": $thm-bp-smlmed,
+  "med": $thm-bp-med,
+  "medlrg": $thm-bp-medlrg,
+  "lrg": $thm-bp-lrg,
+  "xlrg": $thm-bp-xlrg,
+  "ult": $thm-bp-ult,
 );
 
 .freebirdFormviewerViewFooterFooterContainer {
-    display: none !important
+  display: none !important;
 }

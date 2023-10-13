@@ -1,8 +1,10 @@
-.contactBanner__section{
-    background-image: url(../../../../images/contact/contactBanner.jpg);
+.contactBanner__section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../../../images/contact/contactBanner.jpg);
+  background-size: cover;
 }
 @media only screen and(max-width: 600px) {
-    .contactBanner__section{
-        background-position: 10% center;
-    }
+  .contactBanner__section {
+    background-position: 10% center;
+  }
 }

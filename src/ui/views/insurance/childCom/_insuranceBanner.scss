@@ -1,3 +1,5 @@
-.insuranceBanner__section{
-    background-image: url(../../../../images/insur/insurBanner.jpg);
+.insuranceBanner__section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../../../images/insur/insurBanner.jpg);
+  background-size: cover;
 }
