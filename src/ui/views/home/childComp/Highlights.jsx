@@ -13,7 +13,7 @@ export default function Highlights() {
         </div>
 
         <div className="highlights__div">
-          <div className="highlights__div-stars highlights__icon">
+          <div className="highlights__div-stars extra-space highlights__icon">
             <i className="fas fa-star highlights__iconStar" />
             <i className="fas fa-star highlights__iconStar" />
             <i className="fas fa-star highlights__iconStar" />
@@ -29,15 +29,17 @@ export default function Highlights() {
         <div className="highlights__div">
           <i className="fas fa-medal highlights__icon" />
           <div>
-            <h3>Careful Courteous Professionals</h3>
+            <h3>Careful, Courteous Professionals</h3>
             <p>Our team of dedicated experts is here to assist you.</p>
           </div>
         </div>
         <div className="highlights__div">
-          <i className="fas fa-house-user highlights__icon" />
+          <i className="fas fa-people-carry highlights__icon" />
           <div>
-            <h3>No Break Gaurantee</h3>
-            <p>Worry free cleanup and repairs</p>
+            <h3>
+              <i>No-Break</i> Guarantee
+            </h3>
+            <p>We protect and gently handle your belongings.</p>
           </div>
         </div>
       </div>

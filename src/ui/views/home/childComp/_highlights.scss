@@ -30,14 +30,10 @@
   // justify-items:center;
 }
 
-.highlights__div > .highlights__icon {
-  margin: 0;
-  justify-self: center;
-}
-
 .highlights__div h3 {
   font-size: large;
   margin: 0;
+  margin-bottom: 0.5rem;
 }
 
 .highlights__div p {
@@ -61,7 +57,7 @@
 
 .highlights__div-stars {
   @include flex(row, wrap, center, center);
-  margin-right: -20px !important;
+  margin-right: -10px !important;
 }
 
 // .highlights__section-container img{
