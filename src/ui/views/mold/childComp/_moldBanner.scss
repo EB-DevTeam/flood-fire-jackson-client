@@ -1,6 +1,26 @@
 .moldBanner__section {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../../../../images/mold/moldBanner.jpg);
-  background-position: 100% 0;
+    url(../../../../images/mold/banner_350.webp);
   background-size: cover;
+}
+@media only screen and(min-width: 600px) {
+  .moldBanner__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../../../../images/mold/banner_650.webp);
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .moldBanner__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../../../../images/mold/banner_1000.webp);
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .moldBanner__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../../../../images/mold/banner_1300.webp);
+    background-size: cover;
+  }
 }

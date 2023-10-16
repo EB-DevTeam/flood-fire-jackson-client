@@ -21,7 +21,7 @@ export default function Highlights() {
             <i className="fas fa-star highlights__iconStar" />
           </div>
           <div>
-            <h3>5 Start Google Rating</h3>
+            <h3>5-Star Google Rating</h3>
             <p>Customer satisfaction is our top priority.</p>
           </div>
         </div>
@@ -37,7 +37,7 @@ export default function Highlights() {
           <i className="fas fa-people-carry highlights__icon" />
           <div>
             <h3>
-              <i>No-Break</i> Guarantee
+              <i>No-Break</i>&nbsp;&nbsp;&nbsp;Guarantee
             </h3>
             <p>We protect and gently handle your belongings.</p>
           </div>

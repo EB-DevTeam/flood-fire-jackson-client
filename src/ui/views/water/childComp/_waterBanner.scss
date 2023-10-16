@@ -1,12 +1,26 @@
 .waterBanner__section {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../../../../images/water/waterBanner.jpg);
-  background-position: 10%;
+    url(../../../../images/water/banner_350.webp);
   background-size: cover;
 }
-
-@media only screen and(max-width: 600px) {
+@media only screen and(min-width: 600px) {
   .waterBanner__section {
-    background-position: 55% center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../../../../images/water/banner_650.webp);
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .waterBanner__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../../../../images/water/banner_1000.webp);
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .waterBanner__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../../../../images/water/banner_1250.webp);
+    background-size: cover;
   }
 }

@@ -1,10 +1,26 @@
 .contactBanner__section {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../../../../images/contact/contactBanner.jpg);
+    url(../../../../images/contact/banner_350.webp);
   background-size: cover;
 }
-@media only screen and(max-width: 600px) {
+@media only screen and(min-width: 600px) {
   .contactBanner__section {
-    background-position: 10% center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../../../../images/contact/banner_650.webp);
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .contactBanner__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../../../../images/contact/banner_1000.webp);
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .contactBanner__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../../../../images/contact/banner_1300.webp);
+    background-size: cover;
   }
 }

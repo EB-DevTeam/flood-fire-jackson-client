@@ -1,5 +1,26 @@
 .naturalBanner__section {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../../../../images/natural/natBanner.jpg);
+    url(../../../../images/natural/banner_350.webp);
   background-size: cover;
+}
+@media only screen and(min-width: 600px) {
+  .naturalBanner__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../../../../images/natural/banner_650.webp);
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .naturalBanner__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../../../../images/natural/banner_1000.webp);
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .naturalBanner__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../../../../images/natural/banner_1290.webp);
+    background-size: cover;
+  }
 }
